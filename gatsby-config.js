@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Care Brokers`,
+    description: `A graphic representation of a study exploring how home care workers experience technology in their workplaces. Created by members of the Tech Solidarity Lab and CoALA Lab at CMU.`,
+    author: `@ozzmotic`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
   plugins: [
@@ -20,8 +20,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `care-brokers`,
+        short_name: `brokers`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
