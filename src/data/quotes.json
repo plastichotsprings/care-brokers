@@ -1,4 +1,15 @@
 {
+  "agencyData": [
+    {
+      "topic":"jobfinding",
+      "quote":"This is an example quote!"
+    },
+    {
+      "topic":"negotiations",
+      "quote":"This is an example quote!"
+    }
+  ],
+
   "carecomData": [
     {
       "topic":"jobfinding",
