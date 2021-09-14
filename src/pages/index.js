@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import styled from "styled-components";
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -14,6 +15,36 @@ const sliderSettings = {
   infinite: false
 }
 
+const AgencyBox = styled.div`
+  margin: 3rem auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFBABA;
+`;
+
+const PlatformsBox = styled.div`
+  margin: 3rem auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #AED3FF;
+`;
+
+const CoopsBox = styled.div`
+  margin: 3rem auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #FEFFBF;
+`;
+
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
@@ -21,32 +52,32 @@ const IndexPage = () => (
     
     <h2>Agencies</h2>
     <Slider {...sliderSettings}>
-      <div>
+      <AgencyBox>
         Some text
-      </div>
-      <div>
+      </AgencyBox>
+      <AgencyBox>
         Some more text
-      </div>
+      </AgencyBox>
     </Slider>
 
-    <h2>Care.com</h2>
+    <h2>Care Work Platforms</h2>
     <Slider {...sliderSettings}>
-      <div>
+      <PlatformsBox>
         Some text
-      </div>
-      <div>
+      </PlatformsBox>
+      <PlatformsBox>
         Some more text
-      </div>
+      </PlatformsBox>
     </Slider>
 
     <h2>Co-operatives</h2>
     <Slider {...sliderSettings}>
-      <div>
+      <CoopsBox>
         Some text
-      </div>
-      <div>
+      </CoopsBox>
+      <CoopsBox>
         Some more text
-      </div>
+      </CoopsBox>
     </Slider>
 
     <p>
