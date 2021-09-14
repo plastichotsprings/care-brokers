@@ -53,9 +53,11 @@ const IndexPage = () => (
     <h2>Agencies</h2>
     <Slider {...sliderSettings}>
       <AgencyBox>
+        <h3>Job Finding and Assignments</h3>
         Some text
       </AgencyBox>
       <AgencyBox>
+      <h3>Negotiations</h3>
         Some more text
       </AgencyBox>
     </Slider>
@@ -63,9 +65,11 @@ const IndexPage = () => (
     <h2>Care Work Platforms</h2>
     <Slider {...sliderSettings}>
       <PlatformsBox>
+        <h3>Job Finding and Assignments</h3>
         Some text
       </PlatformsBox>
       <PlatformsBox>
+        <h3>Negotiations</h3>
         Some more text
       </PlatformsBox>
     </Slider>
@@ -73,9 +77,11 @@ const IndexPage = () => (
     <h2>Co-operatives</h2>
     <Slider {...sliderSettings}>
       <CoopsBox>
+        <h3>Job Finding and Assignments</h3>
         Some text
       </CoopsBox>
       <CoopsBox>
+        <h3>Negotiations</h3>
         Some more text
       </CoopsBox>
     </Slider>
