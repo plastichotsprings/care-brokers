@@ -14,4 +14,4 @@ TO DO:
 
 This repository will always be free and open source, but we ask that you please do not modify any quotations from participants, out of respect for their contribution to the research.
 
-Created with [Gatsby](https://www.gatsbyjs.com/). 
+Created with [Gatsby](https://www.gatsbyjs.com/) by members of the Tech Solidarity Lab and the [CoALA Lab](https://www.thecoalalab.com/) at Carnegie Mellon University. 
