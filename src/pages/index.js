@@ -9,39 +9,24 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 const sliderSettings = {
-  autoplay: false,
-  arrows: true,
-  dots: false,
   infinite: false
 }
 
 const AgencyBox = styled.div`
-  margin: 3rem auto;
-  padding: 1rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  margin-bottom: 1rem;
+  padding: 1rem 3rem 1rem 3rem;
   background-color: #FFBABA;
 `;
 
 const PlatformsBox = styled.div`
-  margin: 3rem auto;
-  padding: 1rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  margin-bottom: 1rem;
+  padding: 1rem 3rem 1rem 3rem;
   background-color: #AED3FF;
 `;
 
 const CoopsBox = styled.div`
-  margin: 3rem auto;
-  padding: 1rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  margin-bottom: 1rem;
+  padding: 1rem 3rem 1rem 3rem;
   background-color: #FEFFBF;
 `;
 
@@ -53,11 +38,11 @@ const IndexPage = () => (
     <h2>Agencies</h2>
     <Slider {...sliderSettings}>
       <AgencyBox>
-        <h3>Job Finding and Assignments</h3>
+        <h4>Job Finding and Assignments</h4>
         Some text
       </AgencyBox>
       <AgencyBox>
-      <h3>Negotiations</h3>
+        <h4>Negotiations</h4>
         Some more text
       </AgencyBox>
     </Slider>
@@ -65,11 +50,11 @@ const IndexPage = () => (
     <h2>Care Work Platforms</h2>
     <Slider {...sliderSettings}>
       <PlatformsBox>
-        <h3>Job Finding and Assignments</h3>
+        <h4>Job Finding and Assignments</h4>
         Some text
       </PlatformsBox>
       <PlatformsBox>
-        <h3>Negotiations</h3>
+        <h4>Negotiations</h4>
         Some more text
       </PlatformsBox>
     </Slider>
@@ -77,11 +62,11 @@ const IndexPage = () => (
     <h2>Co-operatives</h2>
     <Slider {...sliderSettings}>
       <CoopsBox>
-        <h3>Job Finding and Assignments</h3>
+        <h4>Job Finding and Assignments</h4>
         Some text
       </CoopsBox>
       <CoopsBox>
-        <h3>Negotiations</h3>
+        <h4>Negotiations</h4>
         Some more text
       </CoopsBox>
     </Slider>
