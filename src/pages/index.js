@@ -64,11 +64,11 @@ export default function IndexPage({ data }) {
       <Slider {...sliderSettings}>
         <CoopsBox>
           <h4>Job Finding and Assignments</h4>
-          <p>{ getSliderText(data, "coop", "jobfinding") }</p>
+          <p>{ getSliderText(data, "co-op", "jobfinding") }</p>
         </CoopsBox>
         <CoopsBox>
           <h4>Negotiations</h4>
-          <p>{ getSliderText(data, "coop", "negotiations") }</p>
+          <p>{ getSliderText(data, "co-op", "negotiations") }</p>
         </CoopsBox>
       </Slider>
 
