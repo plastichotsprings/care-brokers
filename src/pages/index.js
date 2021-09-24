@@ -7,10 +7,25 @@ import styled from "styled-components";
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import { graphql } from 'gatsby';
+import { GatsbyImage, getImage } from "gatsby-plugin-image";
+import { StaticImage } from "gatsby-plugin-image";
+export function Headergraphic() {
+  return (
+    <StaticImage
+    src="../images/headergraphic.png"
+    width={100%}
+    />
+  )
+}
 
 const sliderSettings = {
   infinite: false
 }
+
+const SectionHeader = styled.div`
+  margin-bottom: 0em;
+  background-color: #000;
+`;
 
 const AgencyBox = styled.div`
   margin-bottom: 1rem;
@@ -33,9 +48,13 @@ const CoopsBox = styled.div`
 export default function IndexPage({ data }) {
   return (
     <Layout>
-      <Seo title="Home" />
-      <p>A 'care broker' is a company, organization, or individual acting as an intermediary between care workers and their clients. This site collects the anonymized words and experiences of care workers who navigate care brokers in their day-to-day lives. We hope to show the similarities and differences in how care brokers structure and control caregivers and their workplaces.</p>
-      
+
+
+      <SectionHeader>
+        <Seo title="Home" />
+
+      </SectionHeader>
+
       <h2>Agencies</h2>
       <Slider {...sliderSettings}>
         <AgencyBox>
