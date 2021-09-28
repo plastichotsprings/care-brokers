@@ -5,17 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import styled from "styled-components";
 import Layout from "../components/layout"
-import Seo from "../components/seo"
 import { graphql } from 'gatsby';
-import { GatsbyImage, getImage } from "gatsby-plugin-image";
-import { StaticImage } from "gatsby-plugin-image";
-export function Headergraphic() {
-  return (
-    <StaticImage
-    src="../images/headergraphic.png"
-    />
-  )
-}
 
 const sliderSettings = {
   infinite: false

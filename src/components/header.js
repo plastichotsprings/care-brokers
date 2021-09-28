@@ -1,8 +1,8 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
-import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import { StaticImage } from "gatsby-plugin-image";
+import styled from "styled-components";
 export function Headergraphic() {
   return (
     <StaticImage
@@ -11,32 +11,51 @@ export function Headergraphic() {
   )
 }
 
+const HeaderContainer = styled.div`
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 1.45rem 1.0875rem;
+`;
+
+const NavContainer = styled.div`
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end
+`;
+
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `rebeccapurple`,
+      background: `#E7CAF8`,
       marginBottom: `1.45rem`,
+      zIndex: 99
     }}
   >
-    <div
-      style={{
-        margin: `0 auto`,
-        // maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
+    {/* Begin title and nav menu block */}
+    <HeaderContainer>
       <h1 style={{ margin: 0 }}>
         <Link
           to="/"
           style={{
-            color: `white`,
-            textDecoration: `none`,
+            color: `black`,
+            textDecoration: `none`
           }}
         >
           {siteTitle}
         </Link>
       </h1>
-    </div>
+
+      <NavContainer>
+        <Link to="/">test</Link>
+        <Link to="/">test2</Link>
+      </NavContainer>
+
+    </HeaderContainer>
+
+    {/* End title and nav menu block */}
+
     <div
       style={{
         marginLeft: `2em`,
@@ -45,7 +64,7 @@ const Header = ({ siteTitle }) => (
       >
       <h3
         style={{
-          color: `white`,
+          color: `black`,
          }}
        >
           Care Broker (n:) a company, organization, or individual acting as an intermediary between care workers and their clients.
