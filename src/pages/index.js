@@ -32,19 +32,31 @@ const SectionIntro = styled.div`
 const OnboardingBox = styled.div`
   margin-bottom: 1rem;
   padding: 1rem 3rem 1rem 3rem;
-  background-color: #FFBABA;
+  background-color: #eee;
 `;
 
-const PlatformsBox = styled.div`
+const TechBox = styled.div`
   margin-bottom: 1rem;
   padding: 1rem 3rem 1rem 3rem;
-  background-color: #AED3FF;
+  background-color: #eee;
 `;
 
-const CoopsBox = styled.div`
+const HackingBox = styled.div`
   margin-bottom: 1rem;
   padding: 1rem 3rem 1rem 3rem;
-  background-color: #FEFFBF;
+  background-color: #eee;
+`;
+
+const DivideBox = styled.div`
+  margin-bottom: 1rem;
+  padding: 1rem 3rem 1rem 3rem;
+  background-color: #eee;
+`;
+
+const PositiveBox = styled.div`
+  margin-bottom: 1rem;
+  padding: 1rem 3rem 1rem 3rem;
+  background-color: #eee;
 `;
 
 export default function IndexPage({ data }) {
@@ -79,43 +91,71 @@ export default function IndexPage({ data }) {
         </p>
     </SectionIntro>
       <h1>Findings</h1>
-      <h3>Statement about the proceeding themes and sub-themes...</h3>
+      <h3>Statement about the themes and sub-themes...</h3>
       <h2>Onboarding</h2>
       <Slider {...sliderSettings}>
         <OnboardingBox>
-          <p>{ getSliderText(data,"why", "agency", "negotiations") }</p>
+          <p>{ getSliderText(data, ) }</p>
         </OnboardingBox>
         <OnboardingBox>
-          <p>{ getSliderText(data, "agency", "negotiations") }</p>
+          <p>{ getSliderText(data, ) }</p>
         </OnboardingBox>
         <OnboardingBox>
-          <p>{ getSliderText(data, "agency", "negotiations") }</p>
+          <p>{ getSliderText(data, ) }</p>
         </OnboardingBox>
       </Slider>
 
-      <h2>Care Work Platforms</h2>
+      <h2>Technology and Surveillance</h2>
       <Slider {...sliderSettings}>
-        <PlatformsBox>
-          <h4>Job Finding and Assignments</h4>
-          <p>{ getSliderText(data, "platform", "jobfinding") }</p>
-        </PlatformsBox>
-        <PlatformsBox>
-          <h4>Negotiations</h4>
-          <p>{ getSliderText(data, "platform", "negotiations") }</p>
-        </PlatformsBox>
+        <TechBox>
+          <p>{ getSliderText(data, ) }</p>
+        </TechBox>
+        <TechBox>
+          <p>{ getSliderText(data, ) }</p>
+        </TechBox>
+        <TechBox>
+          <p>{ getSliderText(data, ) }</p>
+        </TechBox>
       </Slider>
 
-      <h2>Co-operatives</h2>
+      <h2>"Hacking" the Algorithm</h2>
         <Slider {...sliderSettings}>
-        <CoopsBox>
-          <h4>Job Finding and Assignments</h4>
-          <p>{ getSliderText(data, "co-op", "jobfinding") }</p>
-        </CoopsBox>
-        <CoopsBox>
-          <h4>Negotiations</h4>
-          <p>{ getSliderText(data, "co-op", "negotiations") }</p>
-        </CoopsBox>
+        <HackingBox>
+          <p>{ getSliderText(data, ) }</p>
+        </HackingBox>
+        <HackingBox>
+          <p>{ getSliderText(data, ) }</p>
+        </HackingBox>
+        <HackingBox>
+          <p>{ getSliderText(data, ) }</p>
+        </HackingBox>
         </Slider>
+
+        <h2>The Digital (and Language) Divide</h2>
+          <Slider {...sliderSettings}>
+          <DivideBox>
+            <p>{ getSliderText(data, ) }</p>
+          </DivideBox>
+          <DivideBox>
+            <p>{ getSliderText(data, ) }</p>
+          </DivideBox>
+          <DivideBox>
+            <p>{ getSliderText(data, ) }</p>
+          </DivideBox>
+          </Slider>
+
+          <h2>Positive Experiences with Brokers & Clients</h2>
+            <Slider {...sliderSettings}>
+            <PositiveBox>
+              <p>{ getSliderText(data, ) }</p>
+            </PositiveBox>
+            <PositiveBox>
+              <p>{ getSliderText(data, ) }</p>
+            </PositiveBox>
+            <PositiveBox>
+              <p>{ getSliderText(data, ) }</p>
+            </PositiveBox>
+            </Slider>
       <br />
       <p>
       <Link to="/about/">About the study and authors</Link>
