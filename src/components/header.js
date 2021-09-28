@@ -17,23 +17,29 @@ const HeaderContainer = styled.div`
   justify-content: space-between;
   margin: 0 auto;
   padding: 1.45rem 1.0875rem;
+  position: fixed;
+  zIndex: 100;
+  width: 100%;
+  background-color: #E7CAF8;
 `;
 
 const NavContainer = styled.div`
   display: flex;
   flex-flow: row nowrap;
-  justify-content: flex-end
+  justify-content: flex-end;
+  gap: 1rem;
+  align-items: center;
 `;
 
 const Header = ({ siteTitle }) => (
   <header
     style={{
       background: `#E7CAF8`,
-      marginBottom: `1.45rem`,
-      zIndex: 99
+      marginBottom: `1.45rem`
     }}
   >
     {/* Begin title and nav menu block */}
+
     <HeaderContainer>
       <h1 style={{ margin: 0 }}>
         <Link
@@ -56,25 +62,23 @@ const Header = ({ siteTitle }) => (
 
     {/* End title and nav menu block */}
 
-    <div
-      style={{
-        marginLeft: `2em`,
-        marginRight: `2em`,
-      }}
-      >
+    <div>
       <h3
         style={{
           color: `black`,
+          marginLeft: `2em`,
+          marginRight: `2em`,
+          paddingTop: `4em`,
+          fontStyle: `italic`
          }}
        >
-          Care Broker (n:) a company, organization, or individual acting as an intermediary between care workers and their clients.
+          noun: a company, organization, or individual acting as an intermediary between care workers and their clients.
       </h3>
-    </div>
-    <div>
       <center>
         <StaticImage
         style= {{
           margin: 0,
+          zIndex: 0
         }}
         src="../images/headergraphic.png"
         />
