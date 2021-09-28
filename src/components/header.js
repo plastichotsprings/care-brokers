@@ -3,6 +3,7 @@ import PropTypes from "prop-types"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image";
 import styled from "styled-components";
+import { AnchorLink } from "gatsby-plugin-anchor-links";
 export function Headergraphic() {
   return (
     <StaticImage
@@ -18,7 +19,7 @@ const HeaderContainer = styled.div`
   margin: 0 auto;
   padding: 1.45rem 1.0875rem;
   position: fixed;
-  zIndex: 100;
+  zIndex: 1000;
   width: 100%;
   background-color: #E7CAF8;
 `;
@@ -54,8 +55,8 @@ const Header = ({ siteTitle }) => (
       </h1>
 
       <NavContainer>
-        <Link to="/">test</Link>
-        <Link to="/">test2</Link>
+        <AnchorLink to="/#who" title="Who are care brokers?">Who?</AnchorLink>
+        <AnchorLink to="/#findings" title="Our findings">Findings</AnchorLink>
       </NavContainer>
 
     </HeaderContainer>

@@ -14,7 +14,6 @@ const sliderSettings = {
 const SectionIntro = styled.div`
   font-family: sans-serif;
   font-size: 1.2rem;
-  font-weight: bold;
   margin-bottom: 1em;
   background-color: #fff;
 `;
@@ -40,7 +39,8 @@ const CoopsBox = styled.div`
 export default function IndexPage({ data }) {
   return (
     <Layout>
-    <SectionIntro>
+
+    <SectionIntro id="who">
       <h2 style={{backgroundColor: `yellow`,}}>Who is a Care Broker?</h2>
           <p>
             <ul>
@@ -64,48 +64,54 @@ export default function IndexPage({ data }) {
             <li>researchers interested in the nexus of technology and care</li>
             <li>policy makers</li>
             <li>professionals in the care broker industry</li>
-            <li>web developers & designers of digital platforms</li>
+            <li>web developers and designers of digital platforms</li>
           </ul>
         </p>
     </SectionIntro>
-      <h1>Findings</h1>
-      <h3>Statement about the proceeding themes and sub-themes...</h3>
+     
+    <SectionIntro id="findings">
+      <h2 style={{backgroundColor: `yellow`,}}>Findings</h2>
+      <p>Statement about the proceeding themes and sub-themes, and how to use the slidey boxes...</p>
+
+      {/* Begin slidey boxes */}
       <h2>Onboarding</h2>
-      <Slider {...sliderSettings}>
-        <OnboardingBox>
-          <p>{ getSliderText(data,"why", "agency", "negotiations") }</p>
-        </OnboardingBox>
-        <OnboardingBox>
-          <p>{ getSliderText(data, "agency", "negotiations") }</p>
-        </OnboardingBox>
-        <OnboardingBox>
-          <p>{ getSliderText(data, "agency", "negotiations") }</p>
-        </OnboardingBox>
-      </Slider>
-
-      <h2>Care Work Platforms</h2>
-      <Slider {...sliderSettings}>
-        <PlatformsBox>
-          <h4>Job Finding and Assignments</h4>
-          <p>{ getSliderText(data, "platform", "jobfinding") }</p>
-        </PlatformsBox>
-        <PlatformsBox>
-          <h4>Negotiations</h4>
-          <p>{ getSliderText(data, "platform", "negotiations") }</p>
-        </PlatformsBox>
-      </Slider>
-
-      <h2>Co-operatives</h2>
         <Slider {...sliderSettings}>
-        <CoopsBox>
-          <h4>Job Finding and Assignments</h4>
-          <p>{ getSliderText(data, "co-op", "jobfinding") }</p>
-        </CoopsBox>
-        <CoopsBox>
-          <h4>Negotiations</h4>
-          <p>{ getSliderText(data, "co-op", "negotiations") }</p>
-        </CoopsBox>
+          <OnboardingBox>
+            <p>{ getSliderText(data,"why", "agency", "negotiations") }</p>
+          </OnboardingBox>
+          <OnboardingBox>
+            <p>{ getSliderText(data, "agency", "negotiations") }</p>
+          </OnboardingBox>
+          <OnboardingBox>
+            <p>{ getSliderText(data, "agency", "negotiations") }</p>
+          </OnboardingBox>
         </Slider>
+
+        <h2>Care Work Platforms</h2>
+        <Slider {...sliderSettings}>
+          <PlatformsBox>
+            <h4>Job Finding and Assignments</h4>
+            <p>{ getSliderText(data, "platform", "jobfinding") }</p>
+          </PlatformsBox>
+          <PlatformsBox>
+            <h4>Negotiations</h4>
+            <p>{ getSliderText(data, "platform", "negotiations") }</p>
+          </PlatformsBox>
+        </Slider>
+
+        <h2>Co-operatives</h2>
+          <Slider {...sliderSettings}>
+          <CoopsBox>
+            <h4>Job Finding and Assignments</h4>
+            <p>{ getSliderText(data, "co-op", "jobfinding") }</p>
+          </CoopsBox>
+          <CoopsBox>
+            <h4>Negotiations</h4>
+            <p>{ getSliderText(data, "co-op", "negotiations") }</p>
+          </CoopsBox>
+        </Slider>
+
+      </SectionIntro>
       <br />
       <p>
       <Link to="/about/">About the study and authors</Link>
