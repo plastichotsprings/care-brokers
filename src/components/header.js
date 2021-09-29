@@ -51,6 +51,8 @@ const Header = ({ siteTitle }) => (
         {/* Add new nav links here */}
         <AnchorLink to="/#who" title="Who are care brokers?">Who?</AnchorLink>
         <AnchorLink to="/#findings" title="Our findings">Findings</AnchorLink>
+        <AnchorLink to="/#culture" title="Challenging the Dominant Culture">Challenging the Dominant Culture</AnchorLink>
+        <AnchorLink to="/#about" title="About the study and authors">About</AnchorLink>
       </NavContainer>
 
     </HeaderContainer>

@@ -110,7 +110,7 @@ export default function IndexPage({ data }) {
           </CoopsBox>
         </Slider>
 
-        <h2>The Digital Language Divide</h2>
+        <h2>The Digital (and Language) Divide</h2>
           <Slider {...sliderSettings}>
           <CoopsBox>
             <h4>Job Finding and Assignments</h4>
