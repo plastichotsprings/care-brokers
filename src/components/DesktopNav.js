@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from "react"
 import { Link } from "gatsby"
 import { AnchorLink } from "gatsby-plugin-anchor-links";
 import styled from "styled-components"
+import { breakpoints } from "../utils/breakpoints";
 
 const DesktopNavMenu = () => {
 
@@ -45,31 +46,35 @@ const DesktopNavMenu = () => {
 export default DesktopNavMenu
 
 const HeaderContainer = styled.header`
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  margin: 0 auto;
-  padding: 1.45rem 1.0875rem;
-  position: fixed;
-  z-index: 10;
-  width: 100%;
-  top: 0;
-  background-color: #E7CAF8;
-  align-items: center;
-  font-family: sans-serif;
+  display: none;
 
-  a {
-    text-decoration: none;
-    color: black;
-    transition: color 300ms;
-
-    :hover {
-      color: red;
+  @media ${breakpoints.lg} {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 1.45rem 1.0875rem;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    top: 0;
+    background-color: #E7CAF8;
+    align-items: center;
+    font-family: sans-serif;
+  
+    a {
+      text-decoration: none;
+      color: black;
+      transition: color 300ms;
+  
+      :hover {
+        color: red;
+      }
     }
-  }
-
-  h2 {
-    margin: 0;
+  
+    h2 {
+      margin: 0;
+    }
   }
 `;
 

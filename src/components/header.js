@@ -1,10 +1,8 @@
 import * as React from "react"
 import PropTypes from "prop-types"
-import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image";
 import styled from "styled-components";
 
-import { breakpoints } from "../utils/breakpoints";
 import DesktopNavMenu from "./DesktopNav"
 
 const Header = ({ siteTitle }) => {

@@ -6,8 +6,8 @@ const size = {
 }
 
 export const breakpoints = {
-  sm: `(mid-width: ${size.sm})`,
-  md: `(mid-width: ${size.md})`,
-  lg: `(mid-width: ${size.lg})`,
-  xl: `(mid-width: ${size.xl})`
+  sm: `(min-width: ${size.sm})`,
+  md: `(min-width: ${size.md})`,
+  lg: `(min-width: ${size.lg})`,
+  xl: `(min-width: ${size.xl})`
 }
