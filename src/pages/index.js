@@ -25,10 +25,11 @@ const SectionIntro = styled.div`
   font-family: sans-serif;
   font-size: 1.2rem;
   font-weight: bold;
-  margin-bottom: 1em;
+  margin-bottom: 6em;
 `;
 
 const SectionFindings = styled.div`
+  margin-bottom: 6m;
 `;
 
 const OnboardingBox = styled.div`
@@ -64,10 +65,12 @@ const PositiveBox = styled.div`
 const SectionSoWhat = styled.div`
   font-family: sans-serif;
   font-size: 1.2rem;
+  margin-bottom: 6em;
 `;
 
 const SectionCulture = styled.div`
   font-family: sans-serif;
+  margin-bottom: 6em;
 `;
 
 const SubSectionQuote = styled.div`
@@ -79,7 +82,7 @@ const FancyQuote = styled.div`
   `;
 
 const SubSectionLetter = styled.div`
-
+  margin-bottom: 4em;
 `;
 
 export default function IndexPage({ data }) {
