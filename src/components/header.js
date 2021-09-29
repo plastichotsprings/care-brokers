@@ -14,7 +14,7 @@ export function Headergraphic() {
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `rebeccapurple`,
+      background: `#e6caf7`,
       marginBottom: `1.45rem`,
     }}
   >
@@ -29,7 +29,7 @@ const Header = ({ siteTitle }) => (
         <Link
           to="/"
           style={{
-            color: `white`,
+            color: `black`,
             textDecoration: `none`,
           }}
         >
@@ -45,7 +45,7 @@ const Header = ({ siteTitle }) => (
       >
       <h3
         style={{
-          color: `white`,
+          color: `black`,
          }}
        >
           Care Broker (n:) a company, organization, or individual acting as an intermediary between care workers and their clients.

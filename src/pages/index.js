@@ -9,10 +9,10 @@ import Seo from "../components/seo"
 import { graphql } from 'gatsby';
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import { StaticImage } from "gatsby-plugin-image";
-export function Headergraphic() {
+export function Bgfindings() {
   return (
     <StaticImage
-    src="../images/headergraphic.png"
+    src="../images/bgfindings.png"
     />
   )
 }
@@ -26,11 +26,9 @@ const SectionIntro = styled.div`
   font-size: 1.2rem;
   font-weight: bold;
   margin-bottom: 1em;
-  background-color: #fff;
 `;
 
 const SectionFindings = styled.div`
-
 `;
 
 const OnboardingBox = styled.div`
@@ -87,7 +85,7 @@ const SubSectionLetter = styled.div`
 export default function IndexPage({ data }) {
   return (
     <Layout>
-      <SectionIntro>
+      <SectionIntro class="front-text">
         <h2 style={{}}>Who is a Care Broker?</h2>
             <p>
               <ul>
@@ -101,6 +99,9 @@ export default function IndexPage({ data }) {
                   <p style={{fontWeight:`lighter`,}}>definition...</p>
               </ul>
             </p>
+            <StaticImage class="full-width"
+            src="../images/bubbles.png" layout="fullWidth"
+            />
           <h2 style={{}}>Who can use this resource?</h2>
           <p>We designed this site as a tool for various stakeholders including:</p>
           <p>
@@ -115,8 +116,11 @@ export default function IndexPage({ data }) {
           </p>
           <h3> Statement about Brokers impacts on care givers and care relationships i.e. why we are paying attention to care brokers == end goals/strategy to get there</h3>
       </SectionIntro>
-
-      <SectionFindings>
+      <br />
+      <SectionFindings class="front-text">
+      <StaticImage class="full-width"
+      src="../images/bgfindings.png" layout="fullWidth"//height="3447.75px"
+      />
         <h1>Findings</h1>
           <h3>Statement about the themes and sub-themes...</h3>
           <h2>Onboarding</h2>
@@ -184,11 +188,11 @@ export default function IndexPage({ data }) {
             </PositiveBox>
             </Slider>
       </SectionFindings>
-
+      <br />
       <SectionSoWhat>
       <h1>So What?</h1>
       <h3>Summary sentence...</h3>
-      <p style={{fontWeight:'bold',}}>
+      <p style={{fontWeight:`bold`,}}>
         <ul>
           <li>What users need to know/best practice</li>
             <p style={{fontWeight:`lighter`,}}>detail...</p>
@@ -200,31 +204,34 @@ export default function IndexPage({ data }) {
       </p>
       </SectionSoWhat>
 
-      <SectionCulture>
+      <SectionCulture class="front-text">
+      <StaticImage class="full-width"
+      src="../images/bgculture.png" layout="fullWidth"
+      />
       <h1>Challenging the Dominant Culture</h1>
       <br />
       <FancyQuote style={{marginBottom:`-2%`, marginLeft:`2rem`,}}><div>“</div></FancyQuote>
         <SubSectionQuote style={{marginLeft:`5rem`, marginRight:`5%`, marginTop:`-5%`}}>
-        <p>
+        <p><i>
           And so, when we recruit people, or when people come in contact with ‘Co-op,’ I believe that the image that they see is... is an alternative to the mainstream, dominant culture. And I think what happens a lot of the time is that there’s no acknowledgement that the dominant culture is in everyone, whether they’re in a co-op, or in a traditional top-down hierarchy — because it’s internalized capitalism.
-        </p>
+        </i></p>
         </SubSectionQuote>
         <SubSectionLetter>
-        <p>
-        For this project, we conducted 60-90 minute semi-structured interviews with 15 care workers who had experience using digital platforms. Our goal was to learn how these apps could be better designed, prioritizing the needs of care workers. In other words, we are taking into consideration the point of view of care workers who use apps. This is significant not only because workers have direct experiences with digital platforms approaching a more accurate account or knowledge of the workplace, but also because taking this viewpoint is critical for understanding how to undermine the most exploitative aspects of care work and how we can envision alternatives.
-        </p>
-        <p>
-        More often than not, research and design is conducted with the aim of increasing profits for the care brokering company. In this case, the point of view of the company or perhaps at times the paying client is taken into consideration, while the workers’ viewpoint is neglected. When profit is the primary motive, exploitation is allowed to run rampant.
-        </p>
-        <p>
-        This is not always done intentionally, either. Designers and researchers may often wrongly assume that their design and their research is objective or politically-neutral, which is just another way to say that it is uncritical or supportive of the status quo. Designers may set out with the best of intentions, but without asking themselves “who is this design accountable to?” they run the risk of reproducing the material conditions of the dominant culture, as P10 put it, because of a failure to interrogate internalized capitalism.
-        </p>
-        <p>
-        At stake here is the question of what Mark Fisher has called “capitalist realism,” or the belief that capitalism is the only or best way to organize human social life. Which in turn has implications for how we believe social change is supposed to come about, the importance of workplace democracy and economic and social justice.
-        </p>
-        <p>
-        What we are really talking about here is alternatives to the dominant culture.
-        </p>
+          <p>
+          For this project, we conducted 60-90 minute semi-structured interviews with 15 care workers who had experience using digital platforms. Our goal was to learn how these apps could be better designed, prioritizing the needs of care workers. In other words, we are taking into consideration the point of view of care workers who use apps. This is significant not only because workers have direct experiences with digital platforms approaching a more accurate account or knowledge of the workplace, but also because taking this viewpoint is critical for understanding how to undermine the most exploitative aspects of care work and how we can envision alternatives.
+          </p>
+          <p>
+          More often than not, research and design is conducted with the aim of increasing profits for the care brokering company. In this case, the point of view of the company or perhaps at times the paying client is taken into consideration, while the workers’ viewpoint is neglected. When profit is the primary motive, exploitation is allowed to run rampant.
+          </p>
+          <p>
+          This is not always done intentionally, either. Designers and researchers may often wrongly assume that their design and their research is objective or politically-neutral, which is just another way to say that it is uncritical or supportive of the status quo. Designers may set out with the best of intentions, but without asking themselves “who is this design accountable to?” they run the risk of reproducing the material conditions of the dominant culture, as P10 put it, because of a failure to interrogate internalized capitalism.
+          </p>
+          <p>
+          At stake here is the question of what Mark Fisher has called “capitalist realism,” or the belief that capitalism is the only or best way to organize human social life. Which in turn has implications for how we believe social change is supposed to come about, the importance of workplace democracy and economic and social justice.
+          </p>
+          <p>
+          What we are really talking about here is alternatives to the dominant culture.
+          </p>
         </SubSectionLetter>
         <h4>
         Further Reading

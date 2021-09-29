@@ -2,8 +2,12 @@
   "quotes":[
     {
       "broker":"agency",
-      "topic":"jobfinding",
-      "quote":"'they're all about numbers and bodies. So it's just getting someone in there. And I would say that there's not such an eye on quality. And what I would find quite a lot of time is that I was constantly at the mercy of my employer and who they decided to employ. Um, so I get a phone call from a manager who’d say, oh, by the way, you're shadowing on Friday. I would then think, Oh, my God, who is this gonna be? I mean, my— it might be somebody really, really good. Or it just quite often, honestly, it would just turn my working life upside down overnight'"
+      "topic":"onboarding",
+      "why":"sentence about why this is an important theme",
+      "quote":"'they're all about numbers and bodies. So it's just getting someone in there. And I would say that there's not such an eye on quality. And what I would find quite a lot of time is that I was constantly at the mercy of my employer and who they decided to employ. Um, so I get a phone call from a manager who’d say, oh, by the way, you're shadowing on Friday. I would then think, Oh, my God, who is this gonna be? I mean, my— it might be somebody really, really good. Or it just quite often, honestly, it would just turn my working life upside down overnight'",
+      "speaker":"P10",
+      "insight":"insight relating this quote to our defined goals"
+
     },
     {
       "broker":"agency",
