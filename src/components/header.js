@@ -4,13 +4,6 @@ import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image";
 import styled from "styled-components";
 import { AnchorLink } from "gatsby-plugin-anchor-links";
-export function Headergraphic() {
-  return (
-    <StaticImage
-    src="../images/headergraphic.png"
-    />
-  )
-}
 
 const HeaderContainer = styled.div`
   display: flex;
@@ -19,7 +12,7 @@ const HeaderContainer = styled.div`
   margin: 0 auto;
   padding: 1.45rem 1.0875rem;
   position: fixed;
-  zIndex: 1000;
+  z-index: 1000;
   width: 100%;
   background-color: #E7CAF8;
 `;
@@ -78,8 +71,7 @@ const Header = ({ siteTitle }) => (
       <center>
         <StaticImage
         style= {{
-          margin: 0,
-          zIndex: 0
+          margin: 0
         }}
         src="../images/headergraphic.png"
         />
