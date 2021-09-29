@@ -1,17 +1,20 @@
-import React from "react"
+import React, { useState } from "react"
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import { Link } from "gatsby"
 import styled from "styled-components"
 import { breakpoints } from "../utils/breakpoints"
 
 const MobileNavMenu = () => {
+
+  const [menuOpen, toggleMenuOpen] = useState(false)
+
   return (
     <MenuBar>
       <Link to="/">
         <h2>Care Brokers</h2>
       </Link>
       <MenuIconContainer>
-        <MenuIcon>
+        <MenuIcon menuOpen={menuOpen} onClick={() => toggleMenuOpen(!menuOpen)} >
           <div></div>
           <div></div>
           <div></div>
@@ -41,7 +44,7 @@ const MenuBar = styled.header`
   background-color: #E7CAF8;
   align-items: center;
   font-family: sans-serif;
-  
+
   a {
     text-decoration: none;
     color: black;
@@ -77,9 +80,21 @@ const MenuIcon = styled.button`
   div {
     width: 2rem;
     height: .25rem;
-    background: black;
+    background: ${({ menuOpen }) => (menuOpen ? "red" : "black")};
     border-radius: 10px;
     transform-origin: 1px;
-  }
 
+    :first-child {
+      transform: ${({ menuOpen }) => (menuOpen ? "rotate(40deg)" : "rotate(0)")};
+    }
+  
+    :nth-child(2) {
+      opacity: ${({ menuOpen }) => (menuOpen ? "0" : "1")};
+      transform: ${({ menuOpen }) => menuOpen ? "translateX(-20px)" : "translateX(0)"};
+    }
+  
+    :nth-child(3) {
+      transform: ${ ( { menuOpen }) => menuOpen ? "rotate(-40deg)" : "rotate(0)"}    
+    }
+  }
 `;
