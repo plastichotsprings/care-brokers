@@ -46,8 +46,9 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
-
+      
       <NavContainer>
+        {/* Add new nav links here */}
         <AnchorLink to="/#who" title="Who are care brokers?">Who?</AnchorLink>
         <AnchorLink to="/#findings" title="Our findings">Findings</AnchorLink>
       </NavContainer>
@@ -71,9 +72,10 @@ const Header = ({ siteTitle }) => (
       <center>
         <StaticImage
         style= {{
-          margin: 0
+          margin: 0,
         }}
         src="../images/headergraphic.png"
+        width="1220" //Set max width
         />
       </center>
     </div>
