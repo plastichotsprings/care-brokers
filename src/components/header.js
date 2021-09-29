@@ -1,14 +1,14 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { StaticImage } from "gatsby-plugin-image";
-import styled from "styled-components";
-
 import DesktopNavMenu from "./DesktopNav"
+import MobileNavMenu from "./MobileNav";
 
 const Header = ({ siteTitle }) => {
   return (
     <>
       <DesktopNavMenu />
+      <MobileNavMenu />
       
       <div
         style={{

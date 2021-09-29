@@ -7,6 +7,7 @@ import { breakpoints } from "../utils/breakpoints";
 const DesktopNavMenu = () => {
 
   //Can use this for a scroll effect in the future
+  //Credit: Chris DeSilva, https://www.youtube.com/watch?v=KA_tW7zK04w
   const [background, setBackground] = useState(false);
   const navRef = useRef();
 
@@ -38,6 +39,7 @@ const DesktopNavMenu = () => {
           <AnchorLink to="/#culture" title="Challenging the Dominant Culture">Challenging the Culture</AnchorLink>
           <AnchorLink to="/#about" title="About the study and authors">About</AnchorLink>
         </NavContainer>
+
       </HeaderContainer>
     </div>
   )
@@ -46,42 +48,42 @@ const DesktopNavMenu = () => {
 export default DesktopNavMenu
 
 const HeaderContainer = styled.header`
-  display: none;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 1.45rem 1.0875rem;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  top: 0;
+  background-color: #E7CAF8;
+  align-items: center;
+  font-family: sans-serif;
 
-  @media ${breakpoints.lg} {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    margin: 0 auto;
-    padding: 1.45rem 1.0875rem;
-    position: fixed;
-    z-index: 10;
-    width: 100%;
-    top: 0;
-    background-color: #E7CAF8;
-    align-items: center;
-    font-family: sans-serif;
-  
-    a {
-      text-decoration: none;
-      color: black;
-      transition: color 300ms;
-  
-      :hover {
-        color: red;
-      }
+  a {
+    text-decoration: none;
+    color: black;
+    transition: color 300ms;
+
+    :hover {
+      color: red;
     }
-  
-    h2 {
-      margin: 0;
-    }
+  }
+
+  h2 {
+    margin: 0;
   }
 `;
 
 const NavContainer = styled.div`
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: flex-end;
-  gap: 2rem;
-  align-items: center;
+  display: none;
+
+  @media ${breakpoints.md} {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    gap: 2rem;
+    align-items: center;
+  }
 `;
