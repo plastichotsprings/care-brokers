@@ -3,11 +3,17 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import styled from "styled-components";
+import Layout from "../components/layout"
 import { graphql } from 'gatsby';
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import { StaticImage } from "gatsby-plugin-image";
-import Layout from "../components/layout"
-
+export function Bgfindings() {
+  return (
+    <StaticImage
+    src="../images/bgfindings.png"
+    />
+  )
+}
 
 const sliderSettings = {
   infinite: false
@@ -80,9 +86,7 @@ const SubSectionLetter = styled.div`
 export default function IndexPage({ data }) {
   return (
     <Layout>
-    <StaticImage class="full-width"
-    src="../images/bubbles.png" layout="fullWidth" position="absolute"
-    />
+
       <SectionIntro id="who" class="front-text">
         <h2 style={{}}>Who is a Care Broker?</h2>
             <p>
@@ -97,6 +101,9 @@ export default function IndexPage({ data }) {
                   <p style={{fontWeight:`lighter`,}}>definition...</p>
               </ul>
             </p>
+            <StaticImage class="full-width"
+            src="../images/bubbles.png" layout="fullWidth"
+            />
           <h2 style={{}}>Who can use this resource?</h2>
           <p>We designed this site as a tool for various stakeholders including:</p>
           <p>
@@ -114,10 +121,11 @@ export default function IndexPage({ data }) {
       </SectionIntro>
 
       <br />
-      <StaticImage class="full-width"
-      src="../images/bgfindings.png" layout="fullWidth" position="absolute"//height="3447.75px"
-      />
+          
       <SectionFindings id="findings" class="front-text">
+      <StaticImage class="full-width"
+      src="../images/bgfindings.png" layout="fullWidth"//height="3447.75px"
+      />
         <h1>Findings</h1>
           <h3>Statement about the themes and sub-themes...</h3>
           <h2>Onboarding</h2>
@@ -200,10 +208,11 @@ export default function IndexPage({ data }) {
         </ul>
       </p>
       </SectionSoWhat>
-      <StaticImage class="full-width"
-      src="../images/bgculture.png" layout="fullWidth" position="absolute"
-      />
+
       <SectionCulture id="culture" class="front-text">
+      <StaticImage class="full-width"
+      src="../images/bgculture.png" layout="fullWidth"
+      />
       <h1>Challenging the Dominant Culture</h1>
       <br />
       <FancyQuote style={{marginBottom:`-2%`, marginLeft:`2rem`,}}><div>“</div></FancyQuote>

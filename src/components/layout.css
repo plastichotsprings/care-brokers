@@ -109,7 +109,6 @@ sup {
   top: -0.5em;
 }
 img {
-  position: absolute;
   border-style: none;
   max-width: 100%;
   margin-left: 0;
@@ -603,6 +602,12 @@ pre tt:after {
 .slick-next {
   right: 3% !important;
   z-index: 1;
+}
+.gatsby-image-wrapper {
+  position: absolute;
+}
+.headerpicc {
+  position: relative;
 }
 .full-width {
   width: 100vw;

@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Care Brokers`,
     description: `A graphic representation of a study exploring how home care workers experience technology in their workplaces. Created by members of the Tech Solidarity Lab and CoALA Lab at CMU.`,
-    author: `@ozzmotic`,`@6frz82g`
+    author: `@ozzmotic`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
   plugins: [

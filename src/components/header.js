@@ -28,12 +28,11 @@ const Header = ({ siteTitle }) => {
           noun: a company, organization, or individual acting as an intermediary between care workers and their clients.
         </h3>
         <center>
-          <StaticImage
+          <StaticImage class="headerpicc"
             style={{
               margin: 0,
             }}
             src="../images/headergraphic.png"
-            position="absolute"
             width="1220" //Set max width
           />
         </center>
