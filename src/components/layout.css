@@ -604,12 +604,6 @@ pre tt:after {
   right: 3% !important;
   z-index: 1;
 }
-.gatsby-image-wrapper {
-  position: absolute;
-}
-.headerpicc {
-  position: relative;
-}
 .full-width {
   width: 100vw;
   position: absolute;
@@ -621,4 +615,10 @@ pre tt:after {
 }
 .front-text {
   z-index:8;
+}
+.gatsby-image-wrapper {
+  position: absolute;
+}
+.headerpicc {
+  position: relative;
 }

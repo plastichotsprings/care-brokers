@@ -28,7 +28,7 @@ const Header = ({ siteTitle }) => {
           noun: a company, organization, or individual acting as an intermediary between care workers and their clients.
         </h3>
         <center>
-          <StaticImage class="headerpicc"
+          <StaticImage
             style={{
               margin: 0,
             }}
