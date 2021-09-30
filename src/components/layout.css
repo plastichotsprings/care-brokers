@@ -109,6 +109,7 @@ sup {
   top: -0.5em;
 }
 img {
+  position: absolute;
   border-style: none;
   max-width: 100%;
   margin-left: 0;
