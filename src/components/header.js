@@ -9,7 +9,7 @@ const Header = ({ siteTitle }) => {
     <>
       <DesktopNavMenu />
       <MobileNavMenu />
-      
+
       <div
         style={{
           background: `#E7CAF8`,
@@ -28,7 +28,7 @@ const Header = ({ siteTitle }) => {
           noun: a company, organization, or individual acting as an intermediary between care workers and their clients.
         </h3>
         <center>
-          <StaticImage
+          <StaticImage class="headerpicc"
             style={{
               margin: 0,
             }}
