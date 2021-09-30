@@ -1,11 +1,9 @@
 import * as React from "react"
-import { Link } from "gatsby"
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import styled from "styled-components";
 import Layout from "../components/layout"
-import Seo from "../components/seo"
 import { graphql } from 'gatsby';
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import { StaticImage } from "gatsby-plugin-image";
@@ -88,7 +86,8 @@ const SubSectionLetter = styled.div`
 export default function IndexPage({ data }) {
   return (
     <Layout>
-      <SectionIntro class="front-text">
+
+      <SectionIntro id="who" class="front-text">
         <h2 style={{}}>Who is a Care Broker?</h2>
             <p>
               <ul>
@@ -117,10 +116,13 @@ export default function IndexPage({ data }) {
               <li>web developers & designers of digital platforms</li>
             </ul>
           </p>
-          <h3> Statement about Brokers impacts on care givers and care relationships i.e. why we are paying attention to care brokers == end goals/strategy to get there</h3>
+
+        <h3> Statement about Brokers impacts on care givers and care relationships i.e. why we are paying attention to care brokers == end goals/strategy to get there</h3>
       </SectionIntro>
+
       <br />
-      <SectionFindings class="front-text">
+          
+      <SectionFindings id="findings" class="front-text">
       <StaticImage class="full-width"
       src="../images/bgfindings.png" layout="fullWidth"//height="3447.75px"
       />
@@ -207,7 +209,7 @@ export default function IndexPage({ data }) {
       </p>
       </SectionSoWhat>
 
-      <SectionCulture class="front-text">
+      <SectionCulture id="culture" class="front-text">
       <StaticImage class="full-width"
       src="../images/bgculture.png" layout="fullWidth"
       />
@@ -249,9 +251,12 @@ export default function IndexPage({ data }) {
         </ul>
       </SectionCulture>
       <br />
-      <p>
-      <Link to="/about/">About the study and authors</Link>
-      </p>
+
+      <SectionIntro id="about">
+      <h2>Authors and Acknowledgments</h2>
+      <p>insert content here</p>
+      </SectionIntro>
+
       </Layout>
   )
 }
