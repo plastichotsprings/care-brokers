@@ -81,7 +81,7 @@ export default function IndexPage({ data }) {
   return (
     <Layout>
     <StaticImage class="full-width"
-    src="../images/bubbles.png" layout="fullWidth"
+    src="../images/bubbles.png" layout="fullWidth" position="absolute"
     />
       <SectionIntro id="who" class="front-text">
         <h2 style={{}}>Who is a Care Broker?</h2>
@@ -115,7 +115,7 @@ export default function IndexPage({ data }) {
 
       <br />
       <StaticImage class="full-width"
-      src="../images/bgfindings.png" layout="fullWidth"//height="3447.75px"
+      src="../images/bgfindings.png" layout="fullWidth" position="absolute"//height="3447.75px"
       />
       <SectionFindings id="findings" class="front-text">
         <h1>Findings</h1>
@@ -201,7 +201,7 @@ export default function IndexPage({ data }) {
       </p>
       </SectionSoWhat>
       <StaticImage class="full-width"
-      src="../images/bgculture.png" layout="fullWidth"
+      src="../images/bgculture.png" layout="fullWidth" position="absolute"
       />
       <SectionCulture id="culture" class="front-text">
       <h1>Challenging the Dominant Culture</h1>

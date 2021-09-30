@@ -33,6 +33,7 @@ const Header = ({ siteTitle }) => {
               margin: 0,
             }}
             src="../images/headergraphic.png"
+            position="absolute"
             width="1220" //Set max width
           />
         </center>
