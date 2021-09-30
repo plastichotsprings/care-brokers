@@ -621,3 +621,11 @@ pre tt:after {
 .front-text {
   z-index:8;
 }
+.readinglist {
+  text-decoration: none;
+  color: black;
+}
+.readinglist:hover {
+  color:white;
+  border: .1em dashed;
+}

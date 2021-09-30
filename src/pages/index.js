@@ -117,7 +117,7 @@ export default function IndexPage({ data }) {
       </SectionIntro>
 
       <br />
-          
+
       <SectionFindings id="findings" class="front-text">
       <StaticImage class="full-width"
       src="../images/bgfindings.png" layout="fullWidth" style={bgStyle}
@@ -238,7 +238,12 @@ export default function IndexPage({ data }) {
         Further Reading
         </h4>
         <ul>
-          <li></li>
+          <li class="readinglist">
+            <a href="https://journals.sagepub.com/doi/pdf/10.1177/0141778919879744"
+            target="_blank" style={{textDecoration:`none`, color:`black`,}}>
+            Amrute, Sareeta. “Of Techno-Ethics and Techno-Affects.” Feminist Review, vol. 123, no. 1, 2019, pp. 56–73. Crossref, doi:10.1177/0141778919879744.
+            </a>
+          </li>
           <li></li>
           <li></li>
           <li></li>
@@ -253,7 +258,7 @@ export default function IndexPage({ data }) {
 
       <p>Magally "Maga" Miranda Alcázar (she/they) is a graduate student in Chicana/o and Central American Studies at UCLA. Using methods that emphasize the co-production of knowledge with rank-and-file workers, their research explores the contested meanings of care, work and Latinidad in the context of a globalized economy of care and information. Maga is also the co-founder of the multimedia platform SAL(T): Xicana Marxist Thoughts.</p>
 
-      <p>Freesoul’s bio</p>
+      <p>Freesoul El Shabazz-Thompson (he/him) is a designer, researcher, and artist exploring community-based creation and control of technologies. He is interested in democratic design and the social role of design in developing artifacts and experiences that challenge unsustainable and inequitable practices and beliefs.</p>
 
       <p>Alex Ahmed (she/her) is a postdoc at Carnegie Mellon University, affiliated with the Tech Solidarity Lab led by Dr. Sarah Fox. Her research applies a Marxist, worker-centered perspective on the “future of work,” participatory design, and the intersections between labor and technology. Her writing has been published in several academic venues, in addition to Pangyrus Literary Magazine and a forthcoming piece in Science for the People Magazine.</p>
       </SectionIntro>
