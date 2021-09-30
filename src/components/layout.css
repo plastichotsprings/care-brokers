@@ -603,3 +603,15 @@ pre tt:after {
   right: 3% !important;
   z-index: 1;
 }
+.full-width {
+  width: 100vw;
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  z-index: -1;
+}
+.front-text {
+  z-index:8;
+}
