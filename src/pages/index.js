@@ -5,15 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import styled from "styled-components";
 import Layout from "../components/layout"
 import { graphql } from 'gatsby';
-import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import { StaticImage } from "gatsby-plugin-image";
-export function Bgfindings() {
-  return (
-    <StaticImage
-    src="../images/bgfindings.png"
-    />
-  )
-}
 
 const sliderSettings = {
   infinite: false
@@ -83,6 +75,10 @@ const SubSectionLetter = styled.div`
   margin-bottom: 4em;
 `;
 
+const bgStyle = {
+  position: 'absolute'
+}
+
 export default function IndexPage({ data }) {
   return (
     <Layout>
@@ -101,7 +97,7 @@ export default function IndexPage({ data }) {
                   <p style={{fontWeight:`lighter`,}}>definition...</p>
               </ul>
             </p>
-            <StaticImage class="full-width"
+            <StaticImage class="full-width" style={bgStyle}
             src="../images/bubbles.png" layout="fullWidth"
             />
           <h2 style={{}}>Who can use this resource?</h2>
@@ -124,7 +120,7 @@ export default function IndexPage({ data }) {
           
       <SectionFindings id="findings" class="front-text">
       <StaticImage class="full-width"
-      src="../images/bgfindings.png" layout="fullWidth"//height="3447.75px"
+      src="../images/bgfindings.png" layout="fullWidth" style={bgStyle}
       />
         <h1>Findings</h1>
           <h3>Statement about the themes and sub-themes...</h3>
@@ -211,7 +207,7 @@ export default function IndexPage({ data }) {
 
       <SectionCulture id="culture" class="front-text">
       <StaticImage class="full-width"
-      src="../images/bgculture.png" layout="fullWidth"
+      src="../images/bgculture.png" layout="fullWidth" style={bgStyle}
       />
       <h1>Challenging the Dominant Culture</h1>
       <br />
@@ -254,7 +250,12 @@ export default function IndexPage({ data }) {
 
       <SectionIntro id="about">
       <h2>Authors and Acknowledgments</h2>
-      <p>insert content here</p>
+
+      <p>Magally "Maga" Miranda Alcázar (she/they) is a graduate student in Chicana/o and Central American Studies at UCLA. Using methods that emphasize the co-production of knowledge with rank-and-file workers, their research explores the contested meanings of care, work and Latinidad in the context of a globalized economy of care and information. Maga is also the co-founder of the multimedia platform SAL(T): Xicana Marxist Thoughts.</p>
+
+      <p>Freesoul’s bio</p>
+
+      <p>Alex Ahmed (she/her) is a postdoc at Carnegie Mellon University, affiliated with the Tech Solidarity Lab led by Dr. Sarah Fox. Her research applies a Marxist, worker-centered perspective on the “future of work,” participatory design, and the intersections between labor and technology. Her writing has been published in several academic venues, in addition to Pangyrus Literary Magazine and a forthcoming piece in Science for the People Magazine.</p>
       </SectionIntro>
 
       </Layout>
