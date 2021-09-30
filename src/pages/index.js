@@ -86,7 +86,9 @@ const SubSectionLetter = styled.div`
 export default function IndexPage({ data }) {
   return (
     <Layout>
-
+    <StaticImage class="full-width"
+    src="../images/bubbles.png" layout="fullWidth"
+    />
       <SectionIntro id="who" class="front-text">
         <h2 style={{}}>Who is a Care Broker?</h2>
             <p>
@@ -101,9 +103,6 @@ export default function IndexPage({ data }) {
                   <p style={{fontWeight:`lighter`,}}>definition...</p>
               </ul>
             </p>
-            <StaticImage class="full-width"
-            src="../images/bubbles.png" layout="fullWidth"
-            />
           <h2 style={{}}>Who can use this resource?</h2>
           <p>We designed this site as a tool for various stakeholders including:</p>
           <p>
@@ -121,11 +120,10 @@ export default function IndexPage({ data }) {
       </SectionIntro>
 
       <br />
-          
-      <SectionFindings id="findings" class="front-text">
       <StaticImage class="full-width"
       src="../images/bgfindings.png" layout="fullWidth"//height="3447.75px"
       />
+      <SectionFindings id="findings" class="front-text">
         <h1>Findings</h1>
           <h3>Statement about the themes and sub-themes...</h3>
           <h2>Onboarding</h2>
@@ -208,11 +206,10 @@ export default function IndexPage({ data }) {
         </ul>
       </p>
       </SectionSoWhat>
-
-      <SectionCulture id="culture" class="front-text">
       <StaticImage class="full-width"
       src="../images/bgculture.png" layout="fullWidth"
       />
+      <SectionCulture id="culture" class="front-text">
       <h1>Challenging the Dominant Culture</h1>
       <br />
       <FancyQuote style={{marginBottom:`-2%`, marginLeft:`2rem`,}}><div>“</div></FancyQuote>
