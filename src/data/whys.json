@@ -1,0 +1,24 @@
+{
+  "whys":[
+    {
+      "topic":"onboarding",
+      "why":"During onboarding, care workers begin their relationship with a broker. This sometimes involves training, a formal hiring process, background checks, or registration on an app. We found that care workers may be rejected from a broker (by having their background check flagged, for example) during this phase. Workers reported (and we confirmed) that people who register for Care.com can have their account disabled unexpectedly, with no explanation. Once their work is mediated by a broker, care workers are still bound by its rules and expectations."
+    },
+    {
+      "topic":"surveillance",
+      "why":"Care brokers use, and often encourage clients to use surveillance technologies. Generally, Care Brokers work to negate any liability involving the care relationships they facilitate. To this end, Brokers encourage clients to use cameras, implement background checks, and monitor their care worker’s social media accounts regularly. Furthermore, Care Brokers monitor messages between care workers and clients on platforms to support narratives about their services. Most care platforms implement algorithms that reduce the visibility of care worker profiles if care workers don’t respond to client messages within a given time frame, usually 24 hours. The use of technologies in this way not only enforces a care narrative solely constructed by the brokers, but also has real impacts on the quality of caring relationships and the well-being of care workers."
+    },
+    {
+      "topic":"hacking",
+      "why":"sentence about why this is an important theme"
+    },
+    {
+      "topic":"digitaldivide",
+      "why":"sentence about why this is an important theme"
+    },
+    {
+      "topic":"posexperiences",
+      "why":"sentence about why this is an important theme"
+    }
+  ]
+}

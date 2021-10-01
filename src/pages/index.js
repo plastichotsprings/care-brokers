@@ -8,7 +8,8 @@ import { graphql } from 'gatsby';
 import { StaticImage } from "gatsby-plugin-image";
 
 const sliderSettings = {
-  infinite: false
+  infinite: true,
+  adaptiveHeight: true,
 }
 
 const SectionIntro = styled.div`
@@ -80,6 +81,7 @@ const bgStyle = {
 }
 
 export default function IndexPage({ data }) {
+
   return (
     <Layout>
 
@@ -385,15 +387,27 @@ export default function IndexPage({ data }) {
   )
 }
 
+function getWhyText(data, theTopic) {
+  const sliderItemsArray = [];
+
+  let items = data.dataJson.whys.filter(
+    item => item.topic === theTopic
+  );
+
+  items.forEach( item =>
+    sliderItemsArray.push(<p>{item.why}</p>)
+  )
+}
+
 function getSliderText(data, theBroker, theTopic) {
   const sliderItemsArray = [];
 
   let items = data.dataJson.quotes.filter(
-    quote => quote.broker === theBroker & quote.topic === theTopic
+    entry => entry.broker === theBroker & entry.topic === theTopic
   );
 
   items.forEach( item =>
-    sliderItemsArray.push(<p>{item.quote}</p>)
+    sliderItemsArray.push(<p>{item.quote} [<strong>{item.speaker}, {item.broker} worker]</strong></p>)
   );
   return sliderItemsArray;
 }
@@ -405,6 +419,13 @@ export const query = graphql`
         broker
         topic
         quote
+        entry
+        speaker
+        insight
+      }
+      whys {
+        topic
+        why
       }
     }
   }
