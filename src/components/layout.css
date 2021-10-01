@@ -57,6 +57,7 @@ a {
 a:active,
 a:hover {
   outline-width: 0;
+  color: red;
 }
 abbr[title] {
   border-bottom: 1px dotted hsla(0, 0%, 0%, 0.5);
@@ -622,10 +623,7 @@ pre tt:after {
   z-index:8;
 }
 .readinglist {
+  font-size: .8em;
   text-decoration: none;
   color: black;
-}
-.readinglist:hover {
-  color:white;
-  border: .1em dashed;
 }
