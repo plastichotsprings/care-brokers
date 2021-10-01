@@ -88,13 +88,13 @@ export default function IndexPage({ data }) {
             <p>
               <ul>
                 <li>Traditional Care Agencies</li>
-                  <p style={{fontWeight:`lighter`,}}>A traditional care agency...</p>
+                  <p style={{fontWeight:`lighter`,}}>A public agency or private organization that offers home health care services to individuals in out-of-hospital settings, such as private homes, boarding homes, hospices, shelters, and so on. Typically regulated and licensed by governments only if they meet certain criteria.</p>
                 <li>Online Care Platforms (like Care.com)</li>
-                  <p style={{fontWeight:`lighter`,}}>definition...</p>
+                  <p style={{fontWeight:`lighter`,}}>Care work platforms are digital infrastructures that enable care work service providers and individuals seeking care work services to interact. The platforms we studied advertise direct online access to care workers for childcare, housekeeping, eldercare, and other services.</p>
                 <li>Care Co-operatives</li>
-                  <p style={{fontWeight:`lighter`,}}>definition...</p>
+                  <p style={{fontWeight:`lighter`,}}>A co-op organization is a jointly or democratically owned business. In the care co-op whose members we interviewed, care workers and individuals receiving care participate together in decision-making activities. </p>
                 <li>Social Media Groups</li>
-                  <p style={{fontWeight:`lighter`,}}>definition...</p>
+                  <p style={{fontWeight:`lighter`,}}>We interviewed several members of online communities who utilize the group features available on social networking services or messenger applications to crowd-source content pertaining to employment and other opportunities. Usually moderated by one or more volunteers in the group.</p>
               </ul>
             </p>
             <StaticImage class="full-width" style={bgStyle}
@@ -109,14 +109,16 @@ export default function IndexPage({ data }) {
               <li>researchers interested in the nexus of technology and care</li>
               <li>policy makers</li>
               <li>professionals in the care broker industry</li>
-              <li>web developers & designers of digital platforms</li>
+              <li>web developers and designers of digital platforms</li>
             </ul>
           </p>
 
-        <h3> Statement about Brokers impacts on care givers and care relationships i.e. why we are paying attention to care brokers == end goals/strategy to get there</h3>
-      </SectionIntro>
+        <p style={{fontWeight:`lighter`,}}>As we spoke to care workers, we noticed that their work was structured significantly by the app, company, or organization mediating their relationship with their client. We decided to call that mediating body "the care broker." We found similar impacts and effects that brokers had across our interviews. This was true even of brokers that claim to be more supportive or democratic, such as care co-operatives.</p>
+          
+        <p style={{fontWeight:`lighter`,}}>We think that it’s important to put brokers under the magnifying glass. The common knowledge about care workers and employers suggests that care workers primarily or exclusively use personal networks or agencies. Far less is known about different types of care brokers such as emerging care work platforms like Care.com, SitterCity, or online communities. Our goal is to understand how each type of care broker functions and, ultimately, to assess their strengths and weaknesses. We are also interested in the behaviors, motivations and best practices of care workers and employers who use various types of care brokers. 
 
-      <br />
+        To this end, we sought to include the voice of critical stakeholders: 15 care workers who used various types of brokers including traditional agencies, online care work platforms, co-operatives and online communities, with several who had used multiple types of brokers throughout their careers and some who currently use multiple types. Their experiences can be summarized in the Findings section below.</p>
+      </SectionIntro>
 
       <SectionFindings id="findings" class="front-text">
       <StaticImage class="full-width"
