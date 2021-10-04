@@ -129,7 +129,7 @@ export default function IndexPage({ data }) {
       src="../images/bgfindings.png" layout="fullWidth" style={bgStyle}
       />
         <h1>Findings</h1>
-          <h3>We decided to organize our findings into five major themes: onboarding, surveillance, hacking the algorithm, the digital and language divide, and positive experiences. You can swipe on each box, or interact with the arrows and dot controller around it, to view anonymized quotes from participants that relate to each theme.</h3>
+        <p>We decided to organize our findings into five major themes: onboarding, surveillance, hacking the broker, the digital and language divide, and positive experiences. You can swipe on each box, or interact with the arrows and dot controller around it, to view anonymized quotes from participants that relate to each theme.</p>
           <h2>Onboarding</h2>
           <Slider {...sliderSettings}>
             <OnboardingBox>
@@ -152,46 +152,49 @@ export default function IndexPage({ data }) {
               <p>{ getSliderText(data, "surveillance", "1") }</p>
             </TechBox>
             <TechBox>
-              <p>{ getSliderText(data, ) }</p>
+              <p>{ getSliderText(data, "surveillance", "2") }</p>
+            </TechBox>
+            <TechBox>
+              <p>{ getSliderText(data, "surveillance", "3") }</p>
             </TechBox>
           </Slider>
 
-          <h2>"Hacking" the Algorithm</h2>
+          <h2>"Hacking" the Broker</h2>
             <Slider {...sliderSettings}>
             <HackingBox>
-              <p>{ getSliderText(data, ) }</p>
+              <p>{ getWhyText(data, "hacking") }</p>
             </HackingBox>
             <HackingBox>
-              <p>{ getSliderText(data, ) }</p>
+              <p>{ getSliderText(data, "hacking", "1") }</p>
             </HackingBox>
             <HackingBox>
-              <p>{ getSliderText(data, ) }</p>
+              <p>{ getSliderText(data, "hacking", "2") }</p>
             </HackingBox>
             </Slider>
 
           <h2>The Digital (and Language) Divide</h2>
             <Slider {...sliderSettings}>
             <DivideBox>
-              <p>{ getSliderText(data, ) }</p>
+              <p>{ getWhyText(data, "digitaldivide") }</p>
             </DivideBox>
             <DivideBox>
-              <p>{ getSliderText(data, ) }</p>
+              <p>{ getSliderText(data, "digitaldivide", "1") }</p>
             </DivideBox>
             <DivideBox>
-              <p>{ getSliderText(data, ) }</p>
+              <p>{ getSliderText(data, "digitaldivide", "2") }</p>
             </DivideBox>
             </Slider>
 
           <h2>Positive Experiences with Brokers & Clients</h2>
             <Slider {...sliderSettings}>
             <PositiveBox>
-              <p>{ getSliderText(data, ) }</p>
+              <p>{ getWhyText(data, "posexperiences") }</p>
             </PositiveBox>
             <PositiveBox>
-              <p>{ getSliderText(data, ) }</p>
+              <p>{ getSliderText(data, "posexperiences", "1") }</p>
             </PositiveBox>
             <PositiveBox>
-              <p>{ getSliderText(data, ) }</p>
+              <p>{ getSliderText(data, "posexperiences", "2") }</p>
             </PositiveBox>
             </Slider>
       </SectionFindings>

@@ -16,6 +16,11 @@
 
 .slick-dots li.slick-active button:before {
   color: #ff0000;
+  font-size: 15px;
+}
+
+.slick-dots li button:before {
+  font-size: 10px;
 }
 
 .slick-dots li button:focus {
