@@ -6,10 +6,12 @@ import styled from "styled-components";
 import Layout from "../components/layout"
 import { graphql } from 'gatsby';
 import { StaticImage } from "gatsby-plugin-image";
+import "../styles/global.css"
 
 const sliderSettings = {
-  infinite: true,
+  infinite: false,
   adaptiveHeight: true,
+  dots: true
 }
 
 const SectionIntro = styled.div`
@@ -127,27 +129,27 @@ export default function IndexPage({ data }) {
       src="../images/bgfindings.png" layout="fullWidth" style={bgStyle}
       />
         <h1>Findings</h1>
-          <h3>Statement about the themes and sub-themes...</h3>
+          <h3>We decided to organize our findings into five major themes: onboarding, surveillance, hacking the algorithm, the digital and language divide, and positive experiences. You can swipe on each box, or interact with the arrows and dot controller around it, to view anonymized quotes from participants that relate to each theme.</h3>
           <h2>Onboarding</h2>
           <Slider {...sliderSettings}>
             <OnboardingBox>
-              <p>{ getSliderText(data, ) }</p>
+              <p>{ getWhyText(data, "onboarding") }</p>
             </OnboardingBox>
             <OnboardingBox>
-              <p>{ getSliderText(data, ) }</p>
+              <p>{ getSliderText(data, "onboarding", "1") }</p>
             </OnboardingBox>
             <OnboardingBox>
-              <p>{ getSliderText(data, ) }</p>
+              <p>{ getSliderText(data, "onboarding", "2") }</p>
             </OnboardingBox>
           </Slider>
 
           <h2>Technology and Surveillance</h2>
           <Slider {...sliderSettings}>
             <TechBox>
-              <p>{ getSliderText(data, ) }</p>
+              <p>{ getWhyText(data, "surveillance") }</p>
             </TechBox>
             <TechBox>
-              <p>{ getSliderText(data, ) }</p>
+              <p>{ getSliderText(data, "surveillance", "1") }</p>
             </TechBox>
             <TechBox>
               <p>{ getSliderText(data, ) }</p>
@@ -390,20 +392,22 @@ export default function IndexPage({ data }) {
 function getWhyText(data, theTopic) {
   const sliderItemsArray = [];
 
-  let items = data.dataJson.whys.filter(
-    item => item.topic === theTopic
+  let items = data.dataJson.whys.filter( item => 
+    item.topic === theTopic
   );
 
   items.forEach( item =>
     sliderItemsArray.push(<p>{item.why}</p>)
   )
+
+  return sliderItemsArray;
 }
 
-function getSliderText(data, theBroker, theTopic) {
+function getSliderText(data, theTopic, theEntry) {
   const sliderItemsArray = [];
 
-  let items = data.dataJson.quotes.filter(
-    entry => entry.broker === theBroker & entry.topic === theTopic
+  let items = data.dataJson.quotes.filter( item =>
+    item.topic === theTopic & item.entry === theEntry
   );
 
   items.forEach( item =>
