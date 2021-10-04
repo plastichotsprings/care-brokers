@@ -1,148 +1,115 @@
 {
+  "whys":[
+    {
+      "topic":"onboarding",
+      "why":"During onboarding, care workers begin their relationship with a broker. This sometimes involves training, a formal hiring process, background checks, or registration on an app. We found that care workers may be rejected from a broker (by having their background check flagged, for example) during this phase. Workers reported (and we confirmed) that people who register for Care.com can have their account disabled unexpectedly, with no explanation. Once their work is mediated by a broker, care workers are still bound by its rules and expectations."
+    },
+    {
+      "topic":"surveillance",
+      "why":"Care brokers use, and often encourage clients to use surveillance technologies. Generally, Care Brokers work to negate any liability involving the care relationships they facilitate. To this end, Brokers encourage clients to use cameras, implement background checks, and monitor their care worker’s social media accounts regularly. Furthermore, Care Brokers monitor messages between care workers and clients on platforms to support narratives about their services. Most care platforms implement algorithms that reduce the visibility of care worker profiles if care workers don’t respond to client messages within a given time frame, usually 24 hours. The use of technologies in this way not only enforces a care narrative solely constructed by the brokers, but also has real impacts on the quality of caring relationships and the well-being of care workers."
+    },
+    {
+      "topic":"hacking",
+      "why":"Care workers often find workarounds to common problems created by brokers. These “hacks” improve their chances of success in a system that seems set up for failure. Sometimes, this involves making daily, personal decisions about how they present themselves in the platform (such as appealing to beauty standards) to increase engagement with their online profiles. In other cases, hacks are collective and counter the daily reality of isolation that characterizes their work (especially on platforms). Care workers find answers to common problems, find jobs, vent, and share resources on social media — including template contracts for platform workers. Contracts are sometimes shared by prospective clients, but can also be initiated by care workers. Although they can be a source of protection, it is unclear how far those protections extend."
+    },
+    {
+      "topic":"digitaldivide",
+      "why":"Every broker we studied puts up barriers to finding and keeping a job. Brokers also maintain racialized hierarchies in who gets to hire care workers, and who is doing the caring. We found that language and technical skills are bound up in these hierarchies. For example, some platforms are only available in English. The care co-operative, which claims to share power among care workers and clients, requires a lengthy interview process featuring creative writing in English. Reflecting the racialized history of care work, the workers we spoke to discussed how the majority of people seeking care on platforms like Care.com are white and fairly wealthy, since they can pay for the services they need out of pocket. Sadly, the same was true for the care co-operative. In one care worker’s experience, only state-funded agencies act as care brokers for poor and working class clients, and these featured the worst working conditions for carers."
+    },
+    {
+      "topic":"posexperiences",
+      "why":"Care co-operative workers reported several positive experiences at work, due to their ability to resolve conflicts through conversations aided by a facilitator/advocate, high rates of pay, and ability to participate and lead trainings. For platform workers, such stories were rare, but still possible. In these situations, across brokers, carers reported feeling that there was a trusting relationship with the client or family, as well as a sense of belonging, purpose, and appreciation."
+    }
+  ],
+  
   "quotes":[
     {
       "broker":"agency",
       "topic":"onboarding",
-      "why":"sentence about why this is an important theme",
-      "quote":"'they're all about numbers and bodies. So it's just getting someone in there. And I would say that there's not such an eye on quality. And what I would find quite a lot of time is that I was constantly at the mercy of my employer and who they decided to employ. Um, so I get a phone call from a manager who’d say, oh, by the way, you're shadowing on Friday. I would then think, Oh, my God, who is this gonna be? I mean, my— it might be somebody really, really good. Or it just quite often, honestly, it would just turn my working life upside down overnight'",
+      "entry":"1",
+      "speaker":"P7",
+      "insight":"insight relating this quote to our defined goals",
+      "quote":"'When you work for an agency, you don't have to actually have a client, or working [with a] client right now to be considered an employee of the agency. Usually you have to have notified your regional supervisor of your availability. And if your availability doesn't fit any cases that are available, then you're, you know, they don't have anything for you until they get something.'"
+    },
+    {
+      "broker":"platform",
+      "topic":"onboarding",
+      "entry":"2",
+      "speaker":"P4",
+      "insight":"insight relating this quote to our defined goals",
+      "quote":"there was something really small on my background check that they didn't like but I've passed all the —  I've passed so many background checks and been very honest about my past. And like that one thing came up and they were like, “You lied to us. You are banned.” And I'm like, I didn't do anything super wrong. Like I didn't need, you know, get convicted or anything like that... I was checking my bank account and notice, like a payment from care.com. And I was like, oh, like I know that the families can pay through the platform. So that's probably what it looks like. So I like logged in trying to figure out what this payment came from is like this big like, pop up that said, like, you did not pass your background check. But I'd already been working for two different families for a month at this point, when they decided they didn't pass my background check, and told those two families that I had passed. So it took them a month to like, find this one small thing that I did."
+    },
+    {
+      "broker":"platform",
+      "topic":"surveillance",
+      "entry":"1",
+      "speaker":"P2",
+      "insight":"insight relating this quote to our defined goals",
+      "quote":"I kind of just look for like, sort of compatible styles. You know, how, like, autonomous, I'll be able to be like, I don't want to be like, micromanaged too much. I had one family that was like, you know, we expect her nanny to text us every 30 minutes with an update. And I was like, I can't do that...it got to the point where I was there for two months. And it was just like, nothing relented, you know, they've just still wanted the same, like, just constant updates, like constant like, like documentation of like, what we were doing and stuff... I just I feel like there's just not that much trust, I guess. And it also made my job a lot harder."
+    },
+    {
+      "broker":"platform",
+      "topic":"surveillance",
+      "entry":"2",
+      "speaker":"P12",
+      "insight":"insight relating this quote to our defined goals",
+      "quote":"I nannied for this one family in [US State], one summer and. And they had me on camera, like the whole time it felt like. And I, we I never—  I was never sure if it was on or not. But it was in the living room. Like it wasn't at the door. It was in the living room. And so I didn't notice it until like, a weekend or something. Because I thought I saw it blink or I thought— I was like, is that thing on? And is that for me? Or for the kids? Or you know, and I feel I think I thought it was so awkward. And I just felt kind of powerless and didn't, didn't bring it up....but also like, I need some cash. So I'm just going to really watch myself in front of this camera, but I don't know if it's on or not."
+    },
+    {
+      "broker":"platform",
+      "topic":"surveillance",
+      "entry":"3",
+      "speaker":"P5",
+      "insight":"insight relating this quote to our defined goals",
+      "quote":"The other thing with Care is, it's so hard to get bad reviews taken down, which is totally understandable. But sometimes you will have a conversation with a person through the messaging app on Care, and then decide it's not for you. And they'll go and write a bad review about you even though you've never worked for them….Yeah, and then you can't get taken down. So then you have to delete your profile and start all over again. So I just wanted to avoid all of that at all costs. So I'm always super diligent about like tying up loose ends on Care and making sure like, no one's gonna go back and write a bad review about me, because that's, that's detrimental to a nanny, because this is all people have to go off of."
+    },
+    {
+      "broker":"platform",
+      "topic":"hacking",
+      "entry":"1",
+      "speaker":"P14",
+      "insight":"insight relating this quote to our defined goals",
+      "quote":"So because you not a have a contract, you know, like nothing, just only like oh “work to work.” But now with that group that- that I mentioned that we have, like, we have, like Hola Nannies community, we have another group, Babies Sitters Latinas, so we share our experience about it. And now, a lot of nannies, we ask for the contract, at least like, you know, with something, we have to write it down and sign it... I call them, it’s not a contract, it's an agreement. You know, like, okay, but before now, before it was like, I got the interview, I got the job. And sometimes they don't pay me when I'm sick. And I was shy to ask for that... I really like a scared, you know... maybe they quit me- like if I'm not a- if I asked for my sick days, or my vacations and yeah. So but now like, now I have an agreement with the people that when I had the job, like 'Okay, look, that's- this is what I want. And let's, let's write down everything we can sign it...' I know some nannies that don't do that."
+    },
+    {
+      "broker":"platform",
+      "topic":"hacking",
+      "entry":"2",
+      "speaker":"P12",
+      "insight":"insight relating this quote to our defined goals",
+      "quote":"[Looking at her profile picture on a care work platform] I was thinking that I look happy... I looked pretty. I look approachable. I tend to be extremely, like uh, [pause] docile in interviews and like, I, I hate that I default to like, you know, “I'll do anything”. Like it would be my honor to do—  to work with you, or for you or whatever. Um, I look really young in that photo. I mean, I was young, then, I should really if I like I was using this. I should have updated this probably.. Um.. Yeah, and I think that there's definitely, people… [pause] yeah. [pause] Yeah. I don't know. It's, it's gross that people are like scanning what people look like in choosing their, their nanny. … So, oh, [she highlights pieces of text from her profile as she explains] you can see I'm trying to put up close that I have a master's degree. To try to be like I'm, you know, acknowledging that our society might value me more if I have that, or whatever, even though if there's no jobs in my field at all. Um [chuckles] and I just tried to say I have a ton of childcare experience. I tried to give examples of like, all of the all the fun and different places I've worked, and like settings with kids to try to cast a wide net."
+    },
+    {
+      "broker":"care co-op",
+      "topic":"digitaldivide",
+      "entry":"1",
+      "speaker":"P11",
+      "insight":"insight relating this quote to our defined goals",
+      "quote":"To be honest, that the, the [co-op] recruitment process is quite like, like, having taken part in it, it was… one of the hardest recruitment processes I've been through. Because normally, when you work for companies, and they're so desperate for people that they make it really easy. So you know, they genuinely… the application form is pretty small and sparse. And they just invite you in and you talk to a couple of people and they give you the job on the spot. That's normally how it works. Whereas with [co-op], yet, you've got to do creative writing, really, you've got to be able to tell stories. You've got, you've got to be able to tell stories of previous experiences. And I suppose what they're looking for is people with similar values. So there's that. But, and then, when you go for interview, there's a panel of three which feels quite nerve wracking. But they do give you the questions beforehand, so you know what you're going to be asked, so you have a chance to rehearse it."
+    },
+    {
+      "broker":"platform",
+      "topic":"digitaldivide",
+      "entry":"2",
+      "speaker":"P14",
+      "insight":"insight relating this quote to our defined goals",
+      "quote":"So, for me, it was easy. Yeah, for me, it was easy, because I know how to use the computer. But some people that- I have a friend that they cannot- they don't know how to use it. Sometimes I have to help them to create a profile. It's easy, but for some people, they're not, you know, and yeah, it was easy. (Interviewer: 'What do they have challenges with?') That is because you have to send the resume. And some people, they don't know how to do the resume. So it's one of the challenges. And you have to even if you have more, like better presentation, like you know, like take a picture of your profile how they look. So and- some people just didn't know how to do that. So it's been a challenge for the people that they don't know how to do their resume, or how to use a computer, then."
+    },
+    {
+      "broker":"care co-op",
+      "topic":"posexperiences",
+      "entry":"1",
       "speaker":"P10",
-      "insight":"insight relating this quote to our defined goals"
-
-    },
-    {
-      "broker":"agency",
-      "topic":"jobfinding",
-      "quote":"'something I did, I do miss about working for care providers previously, or working in hospitals, for example. It's just the variety of like, all sorts of people, and quite often people that wouldn't be able to afford to fund their own care. People that haven’t got two pennies to rub together. People um, people who've got nothing really, like except, you know, some of the people I’ve had to care for, literally I was all they had. And I'm not saying that's a good thing. That's not a good thing. But I suppose that there, if you—  when you're a carer, those are the people that you want to help'"
-    },
-    {
-      "broker":"agency",
-      "topic":"jobfinding",
-      "quote":"'And the thing is, is that when they train you as a carer, when you work as carer, you're discouraged, to the discouraged against, like making actual connections with people. So what you're told is that your relationship, you're not, they're not your friend, they're not your auntie, you know, like, they're your patient, you have a professional therapeutic relationship, this person is not personal, it can't be personal.'"
-    },
-    {
-      "broker":"agency",
-      "topic":"negotiations",
-      "quote":"'So a lot of patients, some of them they can't go out, right? So they're home bound. You're not allowed to take no more than $50 from your patient to go to the store to do whatever. Some aides will take $100, $75 to go pay a bill. And then when a filling aide come in, the patient'll like, 'Hey, go pay my light bill.' Like, this is too much money. I can't do it. 'Well, the other aide.' I'm not the other aide. Or the patient can be given gifts, right? We're not allowed to take gifts, but because the old aide or the previous aide did it, they get upset with you because you're not [inaudible 00 21 13] I have to explain, that's against agency policy. Can't do it. Or even going-- [inaudible] they'll send you with money. They don't have enough. So you tell them, 'Listen, I got this, because you didn't have enough for this. If you want me to go back, I'll go back.' 'Oh, well the other aide would just put her money to it.' You can't do it, because you're not supposed to take no money or nothing from the patient, because even if it's a dollar, and you take, they're going to say, 'Oh, you took $5 from me.' Now it's your word against theirs, but guess who's going to be right? The patient.'"
-    },
-    {
-      "broker":"agency",
-      "topic":"jobfinding",
-      "quote":"'when you work for an agency, you don't have to actually have a client, or working [with a] client right now to be considered an employee of the agency. Usually you have to have notified your regional supervisor of your availability. And if your availability doesn't fit any cases that are available, then you're, you know, they don't have anything for you until they get something.'"
-    },
-    {
-      "broker":"agency",
-      "topic":"negotiations",
-      "quote":"'with my other supervisor, that was, that was um, never a problem. If I wanted an extra case, or if there was something that was open, that they needed a fill-in for, she would let me know or see if I could take it like what they were offering me was you know a client with four to eight hours a week or something like that compared to what I had was 35 to 40 hour a week client...So then it would be, I would have to take on two to three to get the hours, and then I'm gonna be all over the place to go to these people depending on where they're located, and the hours that may have been available'"
+      "insight":"insight relating this quote to our defined goals",
+      "quote":"It makes you feel a bit more important and a bit more like you've got a voice, whereas, you know, in the traditional agency I was with before, and I was going to quite a few calls where I was being abused, and I was being hit and my hair pulled and, you know, I was reporting all this, and it was a case of “there's nobody else”. So you go in. And many a time I've been in not very nice situations where I've come away, upset or dreading going the day after, and like almost like a safeguarding issue, and that would never happen here. Because I know I've got the voice and, and I'll be listened to and yeah, it's it's so different. It's unbelievable."
     },
     {
       "broker":"platform",
-      "topic":"jobfinding",
-      "quote":"'I guess, one thing that is frustrating about care.com is like, if you don't respond to messages, you, it's like, you calculate the percentage of messages that you respond to within 24 hours. So like, you kind of have to respond to everything. Um, or else your percentage lowers, and like, the lower your percentage, the less likely you are to show up in a search result... it's like, obviously not the case with parents that they have to respond. So it's, that makes it like a little, like, high pressure. Because I mean, I honestly, there's a lot of, like, messages I've gotten where, like, I would just prefer not to respond like, you know, four kids for $8 an hour. Like, you know, I'd rather just not respond to that'"
-    },
-    {
-      "broker":"platform",
-      "topic":"negotiations",
-      "quote":"'one thing is like, disciplinary style, like, I feel like, it doesn't have to match but I definitely, I don't know, I, I feel like I'm kind of in the middle. Like, there's some parents where, in the interview, they'll say to me, like, “we try not to say the word no, to the kids.” And I'll be like, I don't think I can do that. Like, you know, like, I, I respect it, like, I get where they're coming from in a way, but like, and I have some who like, feel like in the interview, like, start, like yelling at their kids in front of me. And just like, you know, I just kind of get the sense that, like, I don't know, the kids aren't really allowed to be kids'"
-    },
-    {
-      "broker":"platform",
-      "topic":"jobfinding",
-      "quote":"'I just kind of prefer to be off the platform, like, just because of the whole, like, monitoring the messaging responses and stuff.'"
-    },
-    {
-      "broker":"platform",
-      "topic":"negotiations",
-      "quote":"'I kind of just look for like, sort of compatible styles. You know, how, like, autonomous, I'll be able to be like, I don't want to be like, micromanaged too much. I had one family that was like, you know, we expect her nanny to text us every 30 minutes with an update. And I was like, I can't do that...it got to the point where I was there for two months. And it was just like, nothing relented, you know, they've just still wanted the same, like, just constant updates, like constant like, like documentation of like, what we were doing and stuff... I just I feel like there's just not that much trust, I guess. And it also made my job a lot harder.'"
-    },
-    {
-      "broker":"platform",
-      "topic":"jobfinding",
-      "quote":"'I've had potential families [on sitter city], like email me or use their messaging app repeatedly and wouldn't take no for an answer and they have an option to schedule you an interview. So I kept getting this pop up that says you have an interview scheduled on this day at this time with this person. And it was the same person every time and I kept messaging him Look, I cannot go drive the next state over to go work for your family and live there and he hadn't in the price he wanted to pay was like illegal price is not even minimum wage.'"
-    },
-    {
-      "broker":"platform",
-      "topic":"negotiations",
-      "quote":"'Sometimes I work up the nerve to ask if they have cameras. Um, it depends on like, how many offers I'm getting lately, because I feel like some parents don't like if you ask about that. Like, if I'm more like, desperate to get a job. I just won't bring it up. But that is something that I'm trying to ask about more just to like, have respect for myself, I guess.'"
-    },
-    {
-      "broker":"platform",
-      "topic":"jobfinding",
-      "quote":"'so I live in the south. So people hide their family drama really well, and they all have,like, this uppity kind of demeanor. And you just think it's a nice, regular family until you find out later. So I'd say the interviews aren't, it's more for the family to decide if you're a good fit, rather than for you to decide if the family’s a good fit, because they do not reveal anything about themselves.'"
-    },
-    {
-      "broker":"platform",
-      "topic":"negotiations",
-      "quote":"'But just I noticed that like, no one ever said in the interview process, like, “oh, by the way, we have cameras. Is that alright with you?” And yeah, I just feel like, when I feel like I'm being watched, I don't do my job as well, because I kind of get inside my head. Like, I feel like part of being a nanny is like you have to, like be able to be actually silly with kids and stuff. Like, in a way that like, you know, I don't know that I would want to act like that, like do like funny voices and stuff like around an adult. So it's like, I get in my head. And then yeah, I just like wonder, you know, who has access to the footage and like, where they're storing it? And, um, yeah, it also just feels I guess a little bit disrespectful to have someone being filmed and not let them know.'"
-    },
-    {
-      "broker":"platform",
-      "topic":"jobfinding",
-      "quote":"'signing up was pretty straightforward. Once you get into it, it's harder to find jobs, it's a little harder to use. Sometimes, there's a lot of spam on there now. So you see, like a really, really good offer. And it wouldn't be, like —  it would be too good to be true. And so when you first start, and you first sign up, like you have to kind of learn your way, through everything, because it gets a little confusing. And then there, like I said, there's all this spam that you have to sort through. But like the signing up process is easy. [laughs]'"
-    },
-    {
-      "broker":"platform",
-      "topic":"negotiations",
-      "quote":"'I think the contract is if I'm going to be like a nanny for their household, like a regular set schedule type thing, versus if I'm just going to babysit on date nights and weekends'"
-    },
-    {
-      "broker":"platform",
-      "topic":"jobfinding",
-      "quote":"'I had to be really rigorous about trying to reach out to people, and being like, “Hey, this is me.” And I would try to plug in like, “I'm a student!” so that they would, so that they would take me on. And I would also have to, like, again, it had to be a lot of trust that didn't, because I didn't have like, I guess formal references. Like I had the, the women that I knew that were mostly Spanish speaking. But I didn't have like that super formal reference. And so I really had to just be like, word of, like, letting them know, I have this many years of experience... Um, I didn't— on my actual profile, I didn't put that I had years of experience, because at the time, I thought, like, you know, formally, again, I don't have, I don't have that recognition.'"
-    },
-    {
-      "broker":"platform",
-      "topic":"negotiations",
-      "quote":"'it's a little kind of awkward at first, just because, you know, when you're babysitting people, you know, it's the I feel like it's a little more lenience versus [when] you're going into someone's house on like, if you find them on a care, some sort of care app, it's someone you don't--probably don't know, and you're going into their house. And there's a different set of, you know, rules, maybe culture that they have, so that you, there's a lot of other things that you kind of have to take into account that you, I mean, I didn't really have to do you know, babysitting my siblings, I kind of knew what should and shouldn't happen based on how, you know, [how] my parents parented them. But working on, you know, a caregiving app, you kind of go into an environment not knowing, you know, really what to expect until you kind of get there and get a feel for it.'"
-    },
-    {
-      "broker":"platform",
-      "topic":"negotiations",
-      "quote":"'I learned eventually that when I was talking to parents, I had to be clear about that, so that they wouldn't place more on me. Because, for instance, I had another family and that expected me to bring their child home, I mean, to go pick up their child to help them with their homework, and then clean the entire house. And I'm like, my job is not to clean the fucking house. And so I had to navigate communicating with different clients about like, that's not appropriate, or this is what I consider my role to be, if you need it to be a different role, then I'm going to have to charge you a little more...I remember one time this lady was like, but you drive to work. And I'm like, She's like, when you drive to work. So why should I compensate you for gas? And I'm like, I'm picking up your fucking child. That's why like, that's part of the job. You know, it's not, yeah, I had to really put my foot down with some of these women, because I'm just like, you know, it's interesting. I know, you care for your child, but you don't realize how much labor goes goes into taking like raising your fucking kid and doing doing it safely. So yeah, figuring also recognizing that right, like, I think people don't they value care work, but I don't think it's always in monetary ways. And also in, in recognizing labor unless it's a lot of labor.'"
-    },
-    {
-      "broker":"co-op",
-      "topic":"jobfinding",
-      "quote":"'And so when, when we recruit people, or when people come into contact with “Co Op”, I believe that the image that they see is, is an alternative to the mainstream, dominant culture. And I think what happens a lot of the time, is that there's not an acknowledgement that the dominant culture is in everyone, whether they're in a co op, or whether they're in a traditional top down hierarchy-- Because, it's internalized capitalism'"
-    },
-    {
-      "broker":"co-op",
-      "topic":"negotiations",
-      "quote":"'it makes you feel a bit more important and a bit more like you've got a voice, whereas, you know, in the traditional agency I was with before, and I was going to quite a few calls where I was being abused, and I was being hit and my hair pulled and, you know, I was reporting all this, and it was a case of “there's nobody else”. So you go in. And many a time I've been in not very nice situations where I've come away, upset or dreading going the day after, and like almost like a safeguarding issue, and that would never happen here. Because I know I've got the voice and, and I'll be listened to and yeah, it's it's so different. It's unbelievable.'"
-    },
-    {
-      "broker":"co-op",
-      "topic":"jobfinding",
-      "quote":"'we have a profile setup, where we fill in boxes, all sorts of details about ourselves. And if you're happy with it, there's also a little picture of yourself on there as well. And you're matched up to people. So people that are wanting to receive support are allowed to go on there, have a look through, see if there's a certain person's personality that they, you know, they, they think they would get on with, or they've got the same interests or skills in life'"
-    },
-    {
-      "broker":"co-op",
-      "topic":"negotiations",
-      "quote":"'[Mediation of carer-client conflict] Um, it was actually, the, it was the two founders that— so it wasn't like professional mediators, it was, um, guess they're facilitators. So actually, the fact that they’re founders are neither here nor there in this situation. When there's a problem, sometimes, we might not need them, we might sort it out ourselves. But in this instance, everybody felt like they could do with a bit of input. So a couple of their facilitators kind of helped us to structure conversations, where we said what the problems were, and had an opportunity to say why we felt we'd reacted in the way that we had, and also had an opportunity to say what we actually wanted. And it was really constructive. I think initially, the two of us were, were not able to, to get through it. And if we had been able to, we wouldn't have needed the support, because we did need the support it was offered. And it seems to me that that's something that's like built in to the model.'"
-    },
-    {
-      "broker":"co-op",
-      "topic":"jobfinding",
-      "quote":"'it kind of works both ways. So like so when I first started, I obviously have like my, my usual people in the week now I have a Thursday with a certain lady, I have a Wednesday with a certain guy, and I've kind of got a good rota and I will fill in, you know as and when I can, but when it came to me starting out at equal care, and I was only just setting up, I would, you know, be chosen by somebody, say, you know, and I'd be put forward and it would be “Hi, [participant's name],” and “this lady would like to meet you.” And, and that's my option then. And you know, I've got a little bit of background on them, what they require, what they're looking for, and how they are. And then that's my choice, then I can go and meet the person I can say actually I don’t think this is a good match, or it's not for me.'"
-    },
-    {
-      "broker":"co-op",
-      "topic":"negotiations",
-      "quote":"'Like, I'll give you an example. Money, for example. So what to do about money. So what if somebody wants to give you some money to get the shop and buy them something? So, like…  That's something, especially when you’re alone working with somebody, that can be a really thorny thing, because like, I don't know, like, if that's done entirely on trust, then what happens if they then turn around and say, Oh, you only gave me two pound change. And like, I supposed to have a fiver. And there's no one around, no witness, and you didn't keep the receipt, you haven't written it down anywhere. And you've not taken a [unintelligible] like. However, if you don't tell if you don't have the conversation with them about what's a safe procedure for dealing with money, and you start writing things down and taking pictures of receipts, they might start thinking, “What, don't you trust me?” Like, it's, it can be an insult. So on the one hand, you don't want to insult them, when on the other hand, you don't want to make yourself vulnerable.'"
-    },
-    {
-      "broker":"co-op",
-      "topic":"jobfinding",
-      "quote":"'But the platform is going to take, is going to slowly take over every aspect of what we do, and one of them is matching. So the way it's gonna work in the future, is that we've all got a profile, and that's people receiving support and people giving support, we've all got a profile, and it's going to be kind of a bit like a dating site. So it's going to be that people can check out your profile. And, you know, they can see what your skills are, and what's important to you, and all that kind of thing. And they can maybe register an interest, and then I can look at them. But you'd like I can see what what a care visit might look like, what things they need help with, and decide whether that's, you know, speaks to my skills, and decide, you know, see what's important to them, and whether we're going to be compatible. So that's, that's the way that's going to work for the future, but there’s still going to then be an introduction.'"
-    },
-    {
-      "broker":"co-op",
-      "topic":"jobfinding",
-      "quote":"'However, up until now, the way it's worked has been more that I think the facilitators have, they will give you options. But they'll also have a pretty good idea, because there's not many people, they have a pretty good idea of who might appeal to who. So I guess the way it's worked so far as I've been approached, and just set up, we've got this person, and they tend to want to help with this. And that and we know that that’s, you know, in line with your skills, and she's really interesting. We think, you know, they've looked at your profile, and they're open to meeting you, sort of thing. So then we’re— we have a supported conversation where myself and a facilitator will go around and visit. And we'll generally just start off by sitting together and just having having a chat really. And just seeing if there's any chemistry. That's, that tends to be how it works. It's been a little bit unstructured up until now.'"
-    },
-    {
-      "broker":"co-op",
-      "topic":"jobfinding",
-      "quote":"'So when I first had a supportive conversation, I, I'd never, I'd never been matched to the client in my life before, I just been sent places. So I met I met these two people and was just really nice. Yeah, definitely, I'd really like to work with them. You know, they wanted to work with me. And then after I started, I realized there was a bunch of things that maybe I should have asked. So now, I've got lots of things written down...And then afterwards, there's a cooling off period. And both of you are free to say yes or no. So there might be any, any number of reasons why I might say yes or no. It means that I'm not working with anybody that I haven't…  both of us haven't agreed that we want to see more of each other.'"
+      "topic":"posexperiences",
+      "entry":"2",
+      "speaker":"P12",
+      "insight":"insight relating this quote to our defined goals",
+      "quote":"And the family was I mean, it was it was also really challenging. Like one of them was experiencing a lot of just emotional, just challenges of being, you know, nine, but... and so we had a lot of fights. And it was like really dramatic a lot of the time but I don't know the family just had a really honest relationship. And we sort of navigated those issues together. And I was there every day. And they always had a pot of coffee ready like when I got there and, um, it was just, I don't know, I just felt like I was part of their family for a little while in a way that most other nannying jobs I have not really felt that way."
     }
   ]
 }
