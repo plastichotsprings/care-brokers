@@ -199,20 +199,61 @@ export default function IndexPage({ data }) {
             </Slider>
       </SectionFindings>
       <br />
-      // <SectionSoWhat>
-      // <h1>So What Now?</h1>
-      // <h3>Summary sentence...</h3>
-      // <p style={{fontWeight:`bold`,}}>
-      //   <ul>
-      //     <li>What users need to know/best practice</li>
-      //       <p style={{fontWeight:`lighter`,}}>detail...</p>
-      //     <li>anything else</li>
-      //       <p style={{fontWeight:`lighter`,}}>detail...</p>
-      //     <li>anything else</li>
-      //       <p style={{fontWeight:`lighter`,}}>detail...</p>
-      //   </ul>
-      // </p>
-      // </SectionSoWhat>
+      <SectionSoWhat>
+      <h1>So What Now?</h1>
+      <h3>The following are concrete questions and resources curated to support the care work community</h3>
+      <p style={{fontWeight:`bold`,}}>
+      <h3>Sample Contracts:</h3>
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+      <h3>Links to other resources:</h3>
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+      <h3>Questions:</h3>
+        <ul>
+          <li>For parents, families and employers...
+            <ol style={{fontWeight:`lighter`,}}>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ol>
+          </li>
+          <li>For care workers...
+            <ol style={{fontWeight:`lighter`,}}>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ol>
+          </li>
+          <li>For researchers...
+            <ol style={{fontWeight:`lighter`,}}>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ol>
+          </li>
+          <li>For designers and developers of digital platforms...
+            <ol style={{fontWeight:`lighter`,}}>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ol>
+          </li>
+        </ul>
+      </p>
+      </SectionSoWhat>
 
       <SectionCulture id="culture" class="front-text">
       <StaticImage class="full-width"
