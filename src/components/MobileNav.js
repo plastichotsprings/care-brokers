@@ -28,6 +28,9 @@ const MobileNavMenu = () => {
               <AnchorLink to="/#findings" title="Our findings">Findings</AnchorLink>
             </li>
             <li>
+              <AnchorLink to="/#sowhatnow" title="So what now?">So What Now?</AnchorLink>
+            </li>
+            <li>
               <AnchorLink to="/#culture" title="Challenging the Dominant Culture">Challenging the Culture</AnchorLink>
             </li>
             <li>
@@ -44,7 +47,7 @@ export default MobileNavMenu
 
 const MenuBar = styled.header`
 
-  @media ${breakpoints.md} {
+  @media ${breakpoints.lg} {
     display: none;
   }
 

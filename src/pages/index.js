@@ -200,7 +200,7 @@ export default function IndexPage({ data }) {
       </SectionFindings>
       <br />
 
-      <SectionSoWhat>
+      <SectionSoWhat id="sowhatnow">
       <h1>So What Now?</h1>
       <p>The following are questions and resources curated to support the care work community.</p>
       <p style={{fontWeight:`bold`,}}>Sample Contracts</p>

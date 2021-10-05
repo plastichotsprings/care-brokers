@@ -36,6 +36,7 @@ const DesktopNavMenu = () => {
         <NavContainer>
           <AnchorLink to="/#who" title="Who are care brokers?">Who?</AnchorLink>
           <AnchorLink to="/#findings" title="Our findings">Findings</AnchorLink>
+          <AnchorLink to="/#sowhatnow" title="So what now?">So What Now?</AnchorLink>
           <AnchorLink to="/#culture" title="Challenging the Dominant Culture">Challenging the Culture</AnchorLink>
           <AnchorLink to="/#about" title="About the study and authors">About</AnchorLink>
         </NavContainer>
@@ -79,7 +80,7 @@ const HeaderContainer = styled.header`
 const NavContainer = styled.div`
   display: none;
 
-  @media ${breakpoints.md} {
+  @media ${breakpoints.lg} {
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-end;
