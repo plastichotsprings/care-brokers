@@ -220,34 +220,23 @@ export default function IndexPage({ data }) {
         <ul>
           <li>For parents, families and employers...
             <ol style={{fontWeight:`lighter`,}}>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
+              <li>Are you familiar with your responsibilities as an employer of a care worker?</li>
+              <li>If using a care broker, are you familiar with their practices and how they compare to other options?</li>
+              <li>Are you willing to pay a care worker paid time off? Gas and mileage?</li>
+              <li>Are you prepared to have a conversation with a care worker about their and your needs and expectations to create a positive experience?</li>
             </ol>
           </li>
           <li>For care workers...
             <ol style={{fontWeight:`lighter`,}}>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
+              <li>Do you know your rights as a care worker i.e. minimum wage, paid time off, protection from retaliation, etc.?</li>
+              <li>Do you know about different options for care brokers in your area i.e. online communities, digital platforms, traditional care agencies?</li>
             </ol>
           </li>
-          <li>For researchers...
+          <li>For researchers and designers...
             <ol style={{fontWeight:`lighter`,}}>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-            </ol>
-          </li>
-          <li>For designers and developers of digital platforms...
-            <ol style={{fontWeight:`lighter`,}}>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
+              <li>How might different systems of care distribution challenge the dominant culture?</li>
+              <li>Are you familiar with the history of care work in the United States?</li>
+              <li>How might care brokers (e.g. agencies and platforms) design technologies that prioritize healthy care worker-patient relationships? How might healthy care worker-broker relationships facilitate this?</li>
             </ol>
           </li>
         </ul>

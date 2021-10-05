@@ -84,7 +84,7 @@ const NavContainer = styled.div`
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-end;
-    gap: 2rem;
+    gap: 3rem;
     align-items: center;
   }
 `;
