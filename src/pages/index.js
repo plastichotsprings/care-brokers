@@ -199,19 +199,22 @@ export default function IndexPage({ data }) {
             </Slider>
       </SectionFindings>
       <br />
+
       <SectionSoWhat>
       <h1>So What Now?</h1>
-      <h3>Summary sentence...</h3>
-      <p style={{fontWeight:`bold`,}}>
+      <p>The following are questions and resources curated to support the care work community.</p>
+      <p style={{fontWeight:`bold`,}}>Sample Contracts</p>
         <ul>
-          <li>What users need to know/best practice</li>
-            <p style={{fontWeight:`lighter`,}}>detail...</p>
-          <li>anything else</li>
-            <p style={{fontWeight:`lighter`,}}>detail...</p>
-          <li>anything else</li>
-            <p style={{fontWeight:`lighter`,}}>detail...</p>
+          <li><a href="https://docs.google.com/document/d/1zxP6UbNrYsPIfhOm2JA-y0mAMwOzhXL6/edit" target="_blank" rel="noopener noreferrer">Example contract with commentary, provided by Participant 13</a></li>
+          <li><a href="https://employers.domesticworkers.org/care-during-covid/nannies/documents-for-employers"  target="_blank" rel="noopener noreferrer">National Domestic Workers Alliance: Documents for Nanny Employers</a></li>
         </ul>
-      </p>
+
+        <p style={{fontWeight:`bold`,}}>Other Resources</p>
+        <ul>
+          <li><a href="https://www.dwherstories.com/" target="_blank" rel="noopener noreferrer">A History of Domestic Work and Worker Organizing</a></li>
+          <li><a href="https://www.cadomesticworkers.org/know-your-rights/" target="_blank" rel="noopener noreferrer">Know Your Rights: California Domestic Workers Coalition</a></li>
+          <li><a href="https://workerorganizing.org/"  target="_blank" rel="noopener noreferrer">Emergency Workplace Organizing Committee (EWOC)</a></li>
+        </ul>
       </SectionSoWhat>
 
       <SectionCulture id="culture" class="front-text">
@@ -223,8 +226,8 @@ export default function IndexPage({ data }) {
       <FancyQuote style={{marginBottom:`-2%`, marginLeft:`2rem`,}}><div>“</div></FancyQuote>
         <SubSectionQuote style={{marginLeft:`5rem`, marginRight:`5%`, marginTop:`-5%`}}>
         <p><i>
-          And so, when we recruit people, or when people come in contact with ‘Co-op,’ I believe that the image that they see is... is an alternative to the mainstream, dominant culture. And I think what happens a lot of the time is that there’s no acknowledgement that the dominant culture is in everyone, whether they’re in a co-op, or in a traditional top-down hierarchy — because it’s internalized capitalism.
-        </i></p>
+          And so, when we recruit people, or when people come in contact with ‘Co-op,’ I believe that the image that they see is... is an alternative to the mainstream, dominant culture. And I think what happens a lot of the time is that there’s no acknowledgement that the dominant culture is in everyone, whether they’re in a co-op, or in a traditional top-down hierarchy — because it’s internalized capitalism.</i><strong> [P09, co-op worker]</strong>
+        </p>
         </SubSectionQuote>
         <SubSectionLetter>
           <p>
@@ -243,6 +246,7 @@ export default function IndexPage({ data }) {
           What we are really talking about here is alternatives to the dominant culture.
           </p>
         </SubSectionLetter>
+
         <h4>
         Further Reading
         </h4>

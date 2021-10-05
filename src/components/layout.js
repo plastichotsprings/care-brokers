@@ -39,9 +39,9 @@ const Layout = ({ children }) => {
             marginTop: `2rem`,
           }}
         >
-          © {new Date().getFullYear()}, Built with
+          Built with
           {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
+          <a target="_blank" rel="noopener noreferrer" href="https://www.gatsbyjs.com">Gatsby</a>. View this page's source code on <a target="_blank" rel="noopener noreferrer" href="https://github.com/ozzmotic/care-brokers">Github</a>. Licensed under <a href="https://www.gnu.org/licenses/gpl-3.0.en.html" rel="noopener noreferrer">GNU GPL v3</a>.
         </footer>
       </div>
     </>
