@@ -118,8 +118,8 @@ export default function IndexPage({ data }) {
           </p>
 
         <p style={{fontWeight:`lighter`,}}>As we spoke to care workers, we noticed that their work was structured significantly by the app, company, or organization mediating their relationship with their client. We decided to call that mediating body "the care broker." We found similar impacts and effects that brokers had across our interviews. This was true even of brokers that claim to be more supportive or democratic, such as care co-operatives.</p>
-          
-        <p style={{fontWeight:`lighter`,}}>We think that it’s important to put brokers under the magnifying glass. The common knowledge about care workers and employers suggests that care workers primarily or exclusively use personal networks or agencies. Far less is known about different types of care brokers such as emerging care work platforms like Care.com, SitterCity, or online communities. Our goal is to understand how each type of care broker functions and, ultimately, to assess their strengths and weaknesses. We are also interested in the behaviors, motivations and best practices of care workers and employers who use various types of care brokers. 
+
+        <p style={{fontWeight:`lighter`,}}>We think that it’s important to put brokers under the magnifying glass. The common knowledge about care workers and employers suggests that care workers primarily or exclusively use personal networks or agencies. Far less is known about different types of care brokers such as emerging care work platforms like Care.com, SitterCity, or online communities. Our goal is to understand how each type of care broker functions and, ultimately, to assess their strengths and weaknesses. We are also interested in the behaviors, motivations and best practices of care workers and employers who use various types of care brokers.
 
         To this end, we sought to include the voice of critical stakeholders: 15 care workers who used various types of brokers including traditional agencies, online care work platforms, co-operatives and online communities, with several who had used multiple types of brokers throughout their careers and some who currently use multiple types. Their experiences can be summarized in the Findings section below.</p>
       </SectionIntro>
@@ -214,6 +214,42 @@ export default function IndexPage({ data }) {
           <li><a href="https://www.dwherstories.com/" target="_blank" rel="noopener noreferrer">A History of Domestic Work and Worker Organizing</a></li>
           <li><a href="https://www.cadomesticworkers.org/know-your-rights/" target="_blank" rel="noopener noreferrer">Know Your Rights: California Domestic Workers Coalition</a></li>
           <li><a href="https://workerorganizing.org/"  target="_blank" rel="noopener noreferrer">Emergency Workplace Organizing Committee (EWOC)</a></li>
+        </ul>
+
+      <p style={{fontWeight:`bold`,}}>Questions</p>
+        <ul>
+          <li>For parents, families and employers...
+            <ol style={{fontWeight:`lighter`,}}>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ol>
+          </li>
+          <li>For care workers...
+            <ol style={{fontWeight:`lighter`,}}>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ol>
+          </li>
+          <li>For researchers...
+            <ol style={{fontWeight:`lighter`,}}>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ol>
+          </li>
+          <li>For designers and developers of digital platforms...
+            <ol style={{fontWeight:`lighter`,}}>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ol>
+          </li>
         </ul>
       </SectionSoWhat>
 
@@ -399,7 +435,7 @@ export default function IndexPage({ data }) {
 function getWhyText(data, theTopic) {
   const sliderItemsArray = [];
 
-  let items = data.dataJson.whys.filter( item => 
+  let items = data.dataJson.whys.filter( item =>
     item.topic === theTopic
   );
 
