@@ -1,9 +1,10 @@
 module.exports = {
+  pathPrefix: "/care-brokers",
   siteMetadata: {
     title: `Care Brokers`,
     description: `A graphic representation of a study exploring how home care workers experience technology in their workplaces. Created by members of the Tech Solidarity Lab and CoALA Lab at CMU.`,
-    author: `@ozzmotic`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    author: `@plastichotsprings`,
+    siteUrl: `https://plastichotsprings.github.io/carebrokers`,
   },
   plugins: [
     {
