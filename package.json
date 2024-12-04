@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "care-brokers",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "A graphic representation of a study exploring how home care workers experience technology in their workplaces.",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Alex Ahmed, Freesoul El Shabazz Thompson",
   "dependencies": {
     "@accessible360/accessible-slick": "^1.0.1",
     "babel-plugin-styled-components": "^1.13.2",
